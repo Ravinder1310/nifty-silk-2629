@@ -41,6 +41,7 @@ import {
     };
   
     const handleChange = (e) => {
+      e.preventDefault()
       const { name, value } = e.target;
       if (name === "price" || name === "reviews") {
         setAdd({ ...add, [name]: +value });
@@ -50,6 +51,7 @@ import {
     };
   
     const handleChanges = (e) => {
+      e.preventDefault()
       setCate(e.target.value);
     };
   

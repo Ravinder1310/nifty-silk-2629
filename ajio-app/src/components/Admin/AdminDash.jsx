@@ -33,7 +33,11 @@ const AdminDash = () => {
   return (
     <div>
       <AdminNavbar />
+      <br></br>
+      <br></br>
       <Box
+        position={"relative"}
+        zIndex={-1}
         display="flex"
         flexDirection={{ base: "column", sm: "row", md: "row", lg: "row" }}
         justifyContent="space-evenly"
@@ -63,6 +67,7 @@ const AdminDash = () => {
         textAlign="center">
         <Center fontWeight="bold">Select Product to see details</Center>
         <Select
+            border="0.5px solid"
           width="40%"
           margin="auto"
           value={cate}
@@ -87,9 +92,8 @@ const AdminDash = () => {
         }}>
         {dash.map((e) => (
           <Box shadow="md" p={5} key={e.id} fontWeight="bold">
-            <Box position="relative">
+            <Box position="relative" zIndex={-1}>
               <Image src={e.image1} alt="image 1 starting" />
-
               <Box
                 _hover={{ display: "none" }}
                 position={"absolute"}
