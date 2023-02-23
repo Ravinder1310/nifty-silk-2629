@@ -9,6 +9,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { useEffect } from "react";
+import AdminNavbar from "./AdminNavbar";
 
 const AdminDash = () => {
   const [dash, setDash] = useState([]);
@@ -31,6 +32,7 @@ const AdminDash = () => {
 
   return (
     <div>
+      <AdminNavbar />
       <Box
         display="flex"
         flexDirection={{ base: "column", sm: "row", md: "row", lg: "row" }}
