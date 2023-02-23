@@ -1,7 +1,7 @@
 import { MensCard } from './mensSingle'
 import {useDispatch, useSelector} from 'react-redux'
 import { useEffect } from "react"
-import { getProducts } from "../redux/action"
+import { getProducts } from "../../redux/action"
 import { useLocation, useSearchParams } from "react-router-dom"
 
 export const MensList = () => {
