@@ -31,15 +31,15 @@ const AdminNavbar = () => {
           gap={10}
           padding={2}
           justifyContent="space-between"
-          height={"20px"}>
+          height={"28px"}>
           <Box>
             <Center>
-              <Image src={logo} w={"50px"} />
+              <Image src={logo} w={"60px"} />
             </Center>
           </Box>
           <Box>
             <Center>
-              <Text color={"black"} fontWeight={600} fontSize={20}>
+              <Text color={"black"} fontWeight={700} fontSize={20}>
                 ADMIN_PANEL
               </Text>
             </Center>

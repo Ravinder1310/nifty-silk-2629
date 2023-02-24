@@ -8,34 +8,56 @@ import {
   Select,
   Center,
 } from "@chakra-ui/react";
-import { useEffect } from "react";
 import AdminNavbar from "./AdminNavbar";
+import { useEffect } from "react";
 
-const AdminDash = () => {
-  const [dash, setDash] = useState([]);
+const AdminManage = () => {
+  const [deletes, setDelete] = useState([]);
   const [cate, setCate] = useState("");
   const [total, setTotal] = useState(0);
 
   const getdata = async (cate) => {
     let res = await fetch(`https://server-jrrq.onrender.com/${cate}`);
     let data = await res.json();
-    setDash(data);
+    setDelete(data);
+  };
+
+  const AdminDelete = async (id, cate) => {
+    await fetch(`https://server-jrrq.onrender.com/${cate}/${id}`, {
+      method: "DELETE",
+    });
+  };
+
+  const AdminUpdate = async (id, cate) => {
+    let updatePrice = window.prompt("Enter new price");
+    let newPrice = {
+      price: +updatePrice,
+    };
+    console.log(newPrice);
+    await fetch(`https://server-jrrq.onrender.com/${cate}/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newPrice),
+    });
   };
 
   const handleChange = (e) => {
     setCate(e.target.value);
   };
+
   useEffect(() => {
     getdata(cate);
-    setTotal(dash.reduce((acc, el) => acc + el.price, 0));
-  }, [dash, cate]);
+    setTotal(+deletes.reduce((acc, el) => acc + el.price, 0));
+  }, [deletes, cate]);
 
   return (
     <div>
       <AdminNavbar />
       <Box
-        position={"relative"}
-        zIndex={-1}
+              position={"relative"}
+              zIndex={-1}
         display="flex"
         flexDirection={{ base: "column", sm: "row", md: "row", lg: "row" }}
         justifyContent="space-evenly"
@@ -46,7 +68,7 @@ const AdminDash = () => {
           variant="solid"
           margin="5px"
           fontSize={{ base: "10px", sm: "18px" }}>
-          Total Product : {dash.length}
+          Total Product : {deletes.length}
         </Button>
         <Button
           disabled
@@ -58,7 +80,6 @@ const AdminDash = () => {
         </Button>
       </Box>
       <Box
-        zIndex="-1"
         width="30%"
         margin="auto"
         marginBottom="20px"
@@ -77,7 +98,7 @@ const AdminDash = () => {
         </Select>
       </Box>
       <Grid
-        gap="30px"
+        gap="25px"
         width="90%"
         margin="auto"
         cursor="pointer"
@@ -88,27 +109,25 @@ const AdminDash = () => {
           md: "repeat(3,1fr)",
           lg: "repeat(4,1fr)",
         }}>
-        {dash.map((e) => (
-          <Box shadow="md" p={5} key={e.id} fontWeight="bold">
-            <Box position="relative" zIndex="-1" >
-              <Image src={e.image1} alt="image 1 starting" />
-              <Box
-                _hover={{ display: "none" }}
-                position={"absolute"}
-                top="0px"
-                left="0px">
-                <Image src={e.image2} alt="image 2 starting" />
-              </Box>
-            </Box>
+        {deletes.map((e) => (
+          <Box shadow="md" p={4} key={e.id} fontWeight="bold" zIndex={-1}>
+            <Image width="80%" src={e.image1} alt="" />
             <Text>Title : {e.title}</Text>
-            <Text>Describe : {e.short_description}</Text>
             <Text>Price : ₹ {e.price}</Text>
             <Text>Review : {e.reviews}</Text>
-            <Grid gridTemplateColumns="repeat(3,1fr)" gap="1px">
-              <Image width="15" src={e.thumbnail1} alt="" />
-              <Image width="15" src={e.thumbnail2} alt="" />
-              <Image width="15" src={e.thumbnail3} alt="" />
-            </Grid>
+            <Button
+              fontSize={{ base: "18px", sm: "12px", md: "15px", lg: "14px" }}
+              colorScheme="blue"
+              onClick={() => AdminDelete(e.id, cate)}>
+              Delete
+            </Button>
+            <Button
+              fontSize={{ base: "18px", sm: "12px", md: "15px", lg: "14px" }}
+              colorScheme="blue"
+              onClick={() => AdminUpdate(e.id, cate)}
+              margin="10px">
+              Update
+            </Button>
           </Box>
         ))}
       </Grid>
@@ -116,4 +135,4 @@ const AdminDash = () => {
   );
 };
 
-export default AdminDash;
+export default AdminManage;
