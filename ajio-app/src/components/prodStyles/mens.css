@@ -1,0 +1,107 @@
+.mens_container{
+    display: grid;
+    grid-template-columns: repeat3,1fr;
+    gap: 30px;
+}
+
+.mens_cards{
+    padding-bottom:20px;
+    /* border: 1px solid red; */
+}
+
+.mens_cards>div{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.original_price{
+    /* color: grey; */
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.price{
+    font-weight: 700;
+}
+
+.mens_cards>img{
+    height: 400px;
+}
+
+.mens_cards>h3{
+    margin-top: 20px;
+    color: #c3a275;
+}
+
+.mens_cards>h3+p{
+    font-size: 15px;
+}
+
+.offer_price{
+    font-weight: 700;
+    color: rgb(57, 181, 26);
+}
+
+.mens_discount{
+    color: #c3a275;
+}
+
+.mens_title{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mens_grid{
+    display: flex;
+    gap: 4px;
+}
+
+.mens_grid>h1{
+    font-size: 20px;
+    color: grey;
+    margin-right: 15px;
+}
+
+.grid_cards{
+   display: flex;
+   gap: 5px;
+   border: 1px solid black;
+   padding: 5px 5px;
+}
+
+.grid_cards:hover{
+    cursor: pointer;
+    transform: scale1.1;
+}
+
+.grid_cards>div{
+    background-color: grey;
+    width: 10px;
+    height: 20px;
+}
+
+.mens_sort{
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: rgb246, 248, 248;
+    justify-content: space-around;
+    /* gap: 100px; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 15px 20px;
+}
+
+.sort_by{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sort_by>h1{
+    font-size: 20px;
+    color: grey;
+}

@@ -14,8 +14,8 @@ const AllRoutes = () => {
     <div>
       <Routes>
          <Route path="/AdminDash" element={<PrivateRoute><AdminDash/></PrivateRoute>} />
+         <Route path='/products'element={<Products/>}/>
          <Route path="/AdminManage" element={<PrivateRoute><AdminManage/></PrivateRoute>} />
-         <Route path='/'element={<Products/>}/>
         <Route path="/AdminAdd" element={<PrivateRoute><AdminAdd/></PrivateRoute>}/>
         <Route path="/AdminLogin" element={<AdminLogin />} />
         <Route path="/cart" element={<Cart />} /> 

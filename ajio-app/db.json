@@ -1,4 +1,5 @@
 {
+  "products":{
     "mens":[
         {
           "FIELD1": "",
@@ -6,21 +7,10 @@
           "brand": "PERFORMAX",
           "nameCls": "Fastdry Active Essential Track Pants",
           "price": 419,
-          "orginal-price": 599,
-          "discount": "(30% off)",
+          "orginal_price": 599,
+          "discount": 30,
           "category":"pants",
-          "offer-pricess": 300
-        },
-        {
-            "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230221/ZtGk/63f4da23f997dde6f4b81c7e/jump_cuts_black_typographic_print_slim_fit_hooded_t-shirt_with_flap_pocket.jpg",
-          "brand": "JUMP CUTS",
-          "nameCls": "Typographic Print Slim Fit Hooded T-Shirt with Flap Pocket",
-          "price": 410,
-          "orginal-price": 1519,
-          "discount": "(73% off)",
-          "category":"t-shirt",
-          "offer-pricess": 410
+          "offer_price": 300
         },
         {
           "FIELD1": "",
@@ -28,10 +18,10 @@
           "brand": "Lee Cooper",
           "nameCls": "Lightly Washed Slim Fit Jeans",
           "price": 931,
-          "orginal-price": 1899,
-          "discount": "(51% off)",
+          "orginal_price": 1899,
+          "discount": 51,
           "category":"jeans",
-          "offer-pricess": 760
+          "offer_price": 760
         },
         {
           "FIELD1": "",
@@ -39,10 +29,10 @@
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Full Sleeves Slim Fit Classic Shirt",
           "price": 610,
-          "orginal-price": 1849,
-          "discount": "(67% off)",
+          "orginal_price": 1849,
+          "discount": 67,
           "category":"shirt",
-          "offer-pricess": 481
+          "offer_price": 481
         },
         {
           "FIELD1": "",
@@ -50,10 +40,10 @@
           "brand": "DNMX",
           "nameCls": "Mid-Rise Fitted Jeans",
           "price": 639,
-          "orginal-price": 799,
-          "discount": "(20% off)",
+          "orginal_price": 799,
+          "discount": 20,
           "category":"jeans",
-          "offer-pricess": 639
+          "offer_price": 639
         },
         {
           "FIELD1": "",
@@ -61,505 +51,506 @@
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Striped Slim Fit Shirt",
           "price": 800,
-          "orginal-price": 2499,
-          "discount": "(68% off)",
+          "orginal_price": 2499,
+          "discount": 68,
           "category":"shirt",
-          "offer-pricess": 650
+          "offer_price": 650
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220511/irm1/627b43c6f997dd03e2a557c4/bullmer_multicoloured_pack_of_3_graphic_print_crew-neck_t-shirts.jpg",
           "brand": "Bullmer",
           "nameCls": "Pack of 3 Graphic Print Crew-Neck T-shirts",
-          "price": "525",
-          "orginal-price": "₹1,499",
-          "discount": "(65% off)",
+          "price": 525,
+          "orginal_price": 1499,
+          "discount": 65,
           "category":"t-shirt",
-          "offer-pricess": "390"
+          "offer_price": 390
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
           "brand": "EYEBOGLER",
           "nameCls": "Colour-Blocked Polo T-shirt",
-          "price": "₹403",
-          "orginal-price": "₹1,299",
-          "discount": "(69% off)",
+          "price": 403,
+          "orginal_price": 1299,
+          "discount": 69,
           "category":"t-shirt",
-          "offer-pricess": "338"
+          "offer_price": 338
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17bb9/the_indian_garage_co_blue_washed_slim_fit_jeans.jpg",
           "brand": "The Indian Garage Co",
           "nameCls": "Washed Slim Fit Jeans",
-          "price": "₹840",
-          "orginal-price": "₹1,999",
-          "discount": "(58% off)",
+          "price": 840,
+          "orginal_price": 1999,
+          "discount": 58,
           "category":"jeans",
-          "offer-pricess": "780"
+          "offer_price": 780
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221102/B9e1/6362488df997ddfdbd5105bf/john_players_jeans_olive_green_flat-front_cargo_jeans.jpg",
           "brand": "JOHN PLAYERS JEANS",
           "nameCls": "Flat-Front Cargo Jeans",
-          "price": "₹1,400",
-          "orginal-price": "₹2,799",
-          "discount": "(50% off)",
+          "price": 1400,
+          "orginal_price": 2799,
+          "discount": 50,
           "category":"jeans",
-          "offer-pricess": "1,260"
+          "offer_price": 1260
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20230102/wJfs/63b2fe3eaeb269659c1e09e8/dennislingo_premium_attire_green_full_sleeves_slim_fit_shirt.jpg",
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Full Sleeves Slim Fit Shirt",
-          "price": "₹610",
-          "orginal-price": "₹1,849",
-          "discount": "(67% off)",
+          "price": 610,
+          "orginal_price": 1849,
+          "discount": 67,
           "category":"shirt",
-          "offer-pricess": "481"
+          "offer_price": 481
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220606/vlEj/629e1a92aeb26921af119cb8/bare__straight_track_pants_with_drawstring_waist.jpg",
           "brand": "BARE",
           "nameCls": "Straight Track Pants with Drawstring Waist",
-          "price": "₹269",
-          "orginal-price": "₹549",
-          "discount": "(51% off)",
+          "price": 269,
+          "orginal_price": 549,
+          "discount": 51,
           "category":"pants",
-          "offer-pricess": "220"
+          "offer_price": 220
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220513/uxVC/627e237cf997dd03e2b9b21b/the_bear_house_grey_checked_slim_fit_shirt_with_patch_pocket.jpg",
           "brand": "THE BEAR HOUSE",
           "nameCls": "Checked Slim Fit Shirt with Patch Pocket",
-          "price": "₹1,372",
-          "orginal-price": "₹2,495",
-          "discount": "(45% off)",
+          "price": 1372,
+          "orginal_price": 2495,
+          "discount": 45,
           "category":"shirt",
-          "offer-pricess": "837"
+          "offer_price": 837
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/dennislingo_premium_attire_blue_checked_slim_fit_shirt.jpg",
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Checked Slim Fit Shirt",
-          "price": "₹800",
-          "orginal-price": "₹2,499",
-          "discount": "(68% off)",
+          "price": 800,
+          "orginal_price": 2499,
+          "discount": 68,
           "category":"shirt",
-          "offer-pricess": "650"
+          "offer_price": 650
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221117/CXZZ/6375d74faeb269659c97fe85/dennislingo_premium_attire_black__slim_fit_shirt_with_spread_collar.jpg",
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Slim Fit Shirt with Spread Collar",
-          "price": "₹610",
-          "orginal-price": "₹1,849",
-          "discount": "(67% off)",
+          "price": 610,
+          "orginal_price": 1849,
+          "discount": 67,
           "category":"shirt",
-          "offer-pricess": "481"
+          "offer_price": 481
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220818/lSh7/62fde20caeb269176182b7d0/ivoc_olive_green_flat_front_slim_fit_cargo_pants.jpg",
           "brand": "iVOC",
           "nameCls": "Flat Front Slim Fit Cargo Pants",
-          "price": "₹1,367",
-          "orginal-price": "₹2,399",
-          "discount": "(43% off)",
+          "price": 1367,
+          "orginal_price": 2399,
+          "discount": 43,
           "category":"pants",
-          "offer-pricess": "834"
+          "offer_price": 834
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220905/6Nq1/63163668aeb269dbb36cfe23/louis_philippe_navy_flat-front_trousers_with_insert_pockets.jpg",
           "brand": "LOUIS PHILIPPE",
           "nameCls": "Flat-Front Trousers with Insert Pockets",
-          "price": "₹1,689",
-          "orginal-price": "₹2,599",
-          "discount": "(35% off)",
+          "price": 1689,
+          "orginal_price": 2599,
+          "discount": 35,
           "category":"trusers",
-          "offer-pricess": "1,233"
+          "offer_price": 1233
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/hf8/hae/14876749791262/dnmx_blue_lightly_washed_fitted_jeans.jpg",
           "brand": "DNMX",
           "nameCls": "Lightly Washed Fitted Jeans",
-          "price": "₹639",
-          "orginal-price": "₹799",
-          "discount": "(20% off)",
+          "price": 639,
+          "orginal_price": 799,
+          "discount": 20,
           "category":"jeans",
-          "offer-pricess": "639"
+          "offer_price": 639
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220714/NG3H/62d0359baeb26921af7a7dc0/netplay_navy_blue_flat-front_trousers_with_insert_pockets.jpg",
           "brand": "NETPLAY",
           "nameCls": "Flat-Front Trousers with Insert Pockets",
-          "price": "₹824",
-          "orginal-price": "₹1,499",
-          "discount": "(45% off)",
+          "price": 824,
+          "orginal_price": 1499,
+          "discount": 5,
           "category":"trusers",
-          "offer-pricess": "750"
+          "offer_price": 750
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221228/eZQj/63ac6af6f997ddfdbdffa92f/dnmx_grey_lightly_washed_skinny_fit_jeans.jpg",
           "brand": "DNMX",
           "nameCls": "Lightly Washed Skinny Fit Jeans",
-          "price": "₹1,099",
-          "orginal-price": "₹1,999",
-          "discount": "(45% off)",
+          "price": 1099,
+          "orginal_price": 1999,
+          "discount": 45,
           "category":"jeans",
-          "offer-pricess": "1,000"
+          "offer_price": 1000
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220513/sNUJ/627e1e7af997dd03e2b93cf7/the_bear_house_white_slim_fit_shirt_with_patch_pocket.jpg",
           "brand": "THE BEAR HOUSE",
           "nameCls": "Slim Fit Shirt with Patch Pocket",
-          "price": "₹1,297",
-          "orginal-price": "₹2,495",
-          "discount": "(48% off)",
+          "price": 1297,
+          "orginal_price": 2495,
+          "discount": 48,
           "category":"shirt",
-          "offer-pricess": "791"
+          "offer_price": 791
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/h79/h02/10267307016222/netplay_black_slim_fit_mid-rise_chinos.jpg",
           "brand": "NETPLAY",
           "nameCls": "Slim Fit Mid-Rise Chinos",
-          "price": "₹799",
-          "orginal-price": "₹999",
-          "discount": "(20% off)",
+          "price": 799,
+          "orginal_price": 999,
+          "discount": 20,
           "category":"chinos",
-          "offer-pricess": "799"
+          "offer_price": 799
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/h86/h8f/14876616491038/dnmx_grey_lightly_washed_fitted_jeans.jpg",
           "brand": "DNMX",
           "nameCls": "Lightly Washed Fitted Jeans",
-          "price": "₹639",
-          "orginal-price": "₹799",
-          "discount": "(20% off)",
+          "price": 639,
+          "orginal_price": 799,
+          "discount": 20,
           "category":"jeans",
-          "offer-pricess": "639"
+          "offer_price": 639
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220819/Qm9w/62fe856aaeb269176183efe0/ivoc_black_slim_fit_shirt_with_patch_pocket.jpg",
           "brand": "iVOC",
           "nameCls": "Slim Fit Shirt with Patch Pocket",
-          "price": "₹671",
-          "orginal-price": "₹1,199",
-          "discount": "(44% off)",
+          "price": 671,
+          "orginal_price": 1199,
+          "discount": 44,
           "category":"shirt",
-          "offer-pricess": "409"
+          "offer_price": 409
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220623/g3gy/62b3819faeb26921af423d20/ausk_navy_striped_crew-neck_t-shirt.jpg",
           "brand": "AUSK",
           "nameCls": "Striped Crew-Neck T-shirt",
-          "price": "₹410",
-          "orginal-price": "₹999",
-          "discount": "(59% off)",
+          "price": 410,
+          "orginal_price": 999,
+          "discount": 59,
           "category":"t-shirt",
-          "offer-pricess": "260"
+          "offer_price": 260
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220915/6Nrs/63222b65aeb269dbb38c0845/teamspirit_olive_green_geometric_print_flat-front_shorts.jpg",
           "brand": "Teamspirit",
           "nameCls": "Geometric Print Flat-Front Shorts",
-          "price": "₹400",
-          "orginal-price": "₹799",
-          "discount": "(50% off)",
+          "price": 400,
+          "orginal_price": 799,
+          "discount": 50,
           "category":"shorts",
-          "offer-pricess": "360"
+          "offer_price": 360
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221118/0ScG/637727eef997ddfdbd82d944/lee_cooper_olive_shirt_with_flap_pockets.jpg",
           "brand": "Lee Cooper",
           "nameCls": "Shirt with Flap Pockets",
-          "price": "₹980",
-          "orginal-price": "₹1,999",
-          "discount": "(51% off)",
+          "price": 980,
+          "orginal_price": 1999,
+          "discount": 51,
           "category":"shirt",
-          "offer-pricess": "800"
+          "offer_price": 800
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20211023/6Qlf/617313e1aeb2690110a3e315/the_indian_garage_co_white_slim_fit_striped_shirt_with_patch_pocket.jpg",
           "brand": "The Indian Garage Co",
           "nameCls": "Slim Fit Striped Shirt with Patch Pocket",
-          "price": "₹627",
-          "orginal-price": "₹1,649",
-          "discount": "(62% off)",
+          "price": 627,
+          "orginal_price": 1649,
+          "discount": 62,
           "category":"shirt",
-          "offer-pricess": "561"
+          "offer_price": 561
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220301/YmmO/621d2d35aeb26921afbc852d/lee_cooper_navy_blue_crew-neck_t-shirt_with_zip_placket.jpg",
           "brand": "Lee Cooper",
           "nameCls": "Crew-Neck T-shirt with Zip Placket",
-          "price": "₹637",
-          "orginal-price": "₹1,299",
-          "discount": "(51% off)",
+          "price": 637,
+          "orginal_price": 1299,
+          "discount": 51,
           "category":"t-shirt",
-          "offer-pricess": "520"
+          "offer_price": 520
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220121/XNDG/61ea64b3aeb2695cdd24fb24/gespo_black_shirt_with_curved_hemline.jpg",
           "brand": "GESPO",
           "nameCls": "Shirt with Curved Hemline",
-          "price": "₹432",
-          "orginal-price": "₹899",
-          "discount": "(52% off)",
+          "price": 432,
+          "orginal_price": 899,
+          "discount": 52,
           "category":"shirt",
-          "offer-pricess": "264"
+          "offer_price": 264
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220519/frf1/62861152aeb26921afa7c19c/lee_cooper_black_mid-rise_tapered_fit_jeans.jpg",
           "brand": "Lee Cooper",
           "nameCls": "Mid-Rise Tapered Fit Jeans",
-          "price": "₹980",
-          "orginal-price": "₹1,999",
-          "discount": "(51% off)",
+          "price": 980,
+          "orginal_price": 1999,
+          "discount": 51,
           "category":"jeans",
-          "offer-pricess": "800"
+          "offer_price": 800
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220913/rv14/631f9929f997dd1f8df80cb0/stellers_grey_polo_t-shirt_with_brand_print.jpg",
           "brand": "Stellers",
           "nameCls": "Polo T-shirt with Brand Print",
-          "price": "₹700",
-          "orginal-price": "₹1,999",
-          "discount": "(65% off)",
+          "price": 700,
+          "orginal_price": 1999,
+          "discount": 65,
           "category":"t-shirt",
-          "offer-pricess": "520"
+          "offer_price": 520
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221102/iYbj/63620e90aeb269659c6abb9d/john_players_jeans_jet_black_flat-front_cargo_jeans.jpg",
           "brand": "JOHN PLAYERS JEANS",
           "nameCls": "Flat-Front Cargo Jeans",
-          "price": "₹1,400",
-          "orginal-price": "₹2,799",
-          "discount": "(50% off)",
+          "price": 1400,
+          "orginal_price": 2799,
+          "discount": 50,
           "category":"jeans",
-          "offer-pricess": "1,260"
+          "offer_price": 1260
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20230113/B8Gr/63c0fa88aeb269c651de0113/bullmer_peach_striped_henley_t-shirt.jpg",
           "brand": "Bullmer",
           "nameCls": "Striped Henley T-shirt",
-          "price": "₹440",
-          "orginal-price": "₹999",
-          "discount": "(56% off)",
+          "price": 440,
+          "orginal_price": 999,
+          "discount": 56,
           "category":"t-shirt",
-          "offer-pricess": "268"
+          "offer_price": 268
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/the_indian_garage_co_blue_lightly_washed_slim_fit_jeans.jpg",
           "brand": "The Indian Garage Co",
           "nameCls": "Lightly Washed Slim Fit Jeans",
-          "price": "₹840",
-          "orginal-price": "₹1,999",
-          "discount": "(58% off)",
+          "price": 840,
+          "orginal_price": 1999,
+          "discount": 58,
           "category":"jeans",
-          "offer-pricess": "700"
+          "offer_price": 700
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/hb1/h0e/14876617048094/dnmx_blue_mid-rise_skinny_jeans.jpg",
           "brand": "DNMX",
           "nameCls": "Mid-Rise Skinny Jeans",
-          "price": "₹639",
-          "orginal-price": "₹799",
-          "discount": "(20% off)",
+          "price": 639,
+          "orginal_price": 799,
+          "discount": 20,
           "category":"jeans",
-          "offer-pricess": "639"
+          "offer_price": 639
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/ivoc_black_solid_jogger_jeans_with_drawstring.jpg",
           "brand": "iVOC",
           "nameCls": "Solid Jogger Jeans with Drawstring",
-          "price": "₹1,025",
-          "orginal-price": "₹1,799",
-          "discount": "(43% off)",
+          "price": 1025,
+          "orginal_price": 1799,
+          "discount": 43,
           "category":"jogger",
-          "offer-pricess": "625"
+          "offer_price": 625
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220802/negp/62e945daf997dd03e21a4326/dnmx_jet_black_slim_fit_cotton_henley_t-shirt.jpg",
           "brand": "DNMX",
           "nameCls": "Slim Fit Cotton Henley T-shirt",
-          "price": "₹480",
-          "orginal-price": "₹999",
-          "discount": "(52% off)",
+          "price": 480,
+          "orginal_price": 999,
+          "discount": 52,
           "category":"t-shirt",
-          "offer-pricess": "340"
+          "offer_price": 340
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220606/bl7H/629e125eaeb26921af108c21/bare_grey_knit_shorts_with_contrast_taping.jpg",
           "brand": "BARE",
           "nameCls": "Knit Shorts with Contrast Taping",
-          "price": "₹192",
-          "orginal-price": "₹399",
-          "discount": "(52% off)",
+          "price": 192,
+          "orginal_price": 399,
+          "discount": 52,
           "category":"shorts",
-          "offer-pricess": "136"
+          "offer_price": 136
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220927/wyJe/6332e0a7f997dd1f8d1fd3f9/performax_grey_fastdry_running_active_essential_shorts.jpg",
           "brand": "PERFORMAX",
           "nameCls": "Fastdry Running Active Essential Shorts",
-          "price": "₹419",
-          "orginal-price": "₹599",
-          "discount": "(30% off)",
+          "price": 419,
+          "orginal_price": 599,
+          "discount": 30,
           "category":"shorts",
-          "offer-pricess": "300"
+          "offer_price": 300
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20230125/k7SL/63d0efacf997dd708e201786/performax_dark_grey_fastdry_active_essential_track_pants.jpg",
           "brand": "PERFORMAX",
           "nameCls": "Fastdry Active Essential Track Pants",
-          "price": "₹419",
-          "orginal-price": "₹599",
-          "discount": "(30% off)",
+          "price": 419,
+          "orginal_price": 599,
+          "discount": 30,
           "category":"pants",
-          "offer-pricess": "300"
+          "offer_price": 300
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220317/upsH/62324f6daeb26921afdf8b19/the_dry_state_blue_solid_crew-neck_t-shirt.jpg",
           "brand": "The Dry State",
           "nameCls": "Solid Crew-Neck T-shirt",
-          "price": "₹455",
-          "orginal-price": "₹1,299",
-          "discount": "(65% off)",
+          "price": 455,
+          "orginal_price": 1299,
+          "discount": 65,
           "category":"t-shirt",
-          "offer-pricess": "338"
+          "offer_price": 338
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220908/XRfc/631910bbf997dd1f8dec9a54/ausk_white_striped_crew-neck_t-shirt.jpg",
           "brand": "AUSK",
           "nameCls": "Striped Crew-Neck T-shirt",
-          "price": "₹400",
-          "orginal-price": "₹999",
-          "discount": "(60% off)",
+          "price": 400,
+          "orginal_price": 999,
+          "discount": 60,
           "category":"t-shirt",
-          "offer-pricess": "260"
+          "offer_price": 260
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220818/22eZ/62fde1bdf997dd394c018b73/ivoc_olive_green_slim_fit_shirt_with_flap_pockets.jpg",
           "brand": "iVOC",
           "nameCls": "Slim Fit Shirt with Flap Pockets",
-          "price": "₹975",
-          "orginal-price": "₹2,499",
-          "discount": "(61% off)",
+          "price": 975,
+          "orginal_price": 2499,
+          "discount": 61,
           "category":"shirt",
-          "offer-pricess": "650"
+          "offer_price": 650
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220920/8H9B/6328c6a9f997dd1f8d08d18c/teamspirit_green_popcorn_crew-neck_t-shirt.jpg",
           "brand": "Teamspirit",
           "nameCls": "Popcorn Crew-Neck T-Shirt",
-          "price": "₹382",
-          "orginal-price": "₹449",
-          "discount": "(15% off)",
+          "price": 382,
+          "orginal_price": 449,
+          "discount": 15,
           "category":"t-shirt",
-          "offer-pricess": "359"
+          "offer_price": 359
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220511/H3sZ/627b480caeb26921af64d4d4/bullmer_black_stripes_regular-fit_polo_t-shirt.jpg",
           "brand": "Bullmer",
           "nameCls": "Stripes Regular-fit Polo T-shirt",
-          "price": "₹440",
-          "orginal-price": "₹999",
-          "discount": "(56% off)",
+          "price": 440,
+          "orginal_price": 999,
+          "discount": 56,
           "category":"t-shirt",
-          "offer-pricess": "268"
+          "offer_price": 268
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20230207/Dc1L/63e27bc2aeb269c65116a7db/lee_cooper_indigo_button-down_hoodie_with_placement_brand_print.jpg",
           "brand": "Lee Cooper",
           "nameCls": "Button-Down Hoodie with Placement Brand Print",
-          "price": "₹1,127",
-          "orginal-price": "₹2,299",
-          "discount": "(51% off)",
+          "price": 1127,
+          "orginal_price": 2299,
+          "discount": 51,
           "category":"hoodie",
-          "offer-pricess": "920"
+          "offer_price": 920
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220722/qPtt/62dab922aeb26921af8fdf22/netplay_grey_checked_slim_fit_shirt.jpg",
           "brand": "NETPLAY",
           "nameCls": "Checked Slim Fit Shirt",
-          "price": "₹624",
-          "orginal-price": "₹1,299",
-          "discount": "(52% off)",
+          "price": 624,
+          "orginal_price": 1299,
+          "discount": 52,
           "category":"shirt",
-          "offer-pricess": "442"
+          "offer_price": 442
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20220511/MU3P/627b4a8aaeb26921af650b1d/bullmer_maroon_striped_polo_t-shirt.jpg",
           "brand": "Bullmer",
           "nameCls": "Striped Polo T-shirt",
-          "price": "₹350",
-          "orginal-price": "₹999",
-          "discount": "(65% off)",
+          "price": 350,
+          "orginal_price": 999,
+          "discount": 65,
           "category":"t-shirt",
-          "offer-pricess": "260"
+          "offer_price": 260
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20221109/c7a3/636b8e16aeb269659c7f7c15/dennislingo_premium_attire_white_checked_slim_fit_shirt.jpg",
           "brand": "DENNISLINGO PREMIUM ATTIRE",
           "nameCls": "Checked Slim Fit Shirt",
-          "price": "₹800",
-          "orginal-price": "₹2,499",
-          "discount": "(68% off)",
+          "price": 800,
+          "orginal_price": 2499,
+          "discount": 68,
           "category":"shirt",
-          "offer-pricess": "650"
+          "offer_price": 650
         },
         {
           "FIELD1": "",
           "images": "https://assets.ajio.com/medias/sys_master/root/20200821/bhEl/5f3fec367cdb8ca2cf9f00b2/the_indian_garage_co_maroon_checked_slim_fit_shirt_with_patch_pocket.jpg",
           "brand": "The Indian Garage Co",
           "nameCls": "Checked Slim Fit Shirt with Patch Pocket",
-          "price": "₹700",
-          "orginal-price": "₹1,749",
-          "discount": "(60% off)",
+          "price": 700,
+          "orginal_price": 1749,
+          "discount": 60,
           "category":"shirt",
-          "offer-pricess": "595"
+          "offer_price": 595
         }   
        ]
+}
 }

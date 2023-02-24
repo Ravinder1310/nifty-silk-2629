@@ -6,11 +6,10 @@ export const Products = () => {
     return (
         <div>
             {/* <Navbar/> */}
-            <div style={{display:'flex',marginTop:'100px'}}>
-                <div style={{height:'100%'}}>
+            <div style={{display:'flex',marginTop:'100px',justifyContent:"space-around"}}>
                     <Sidebar/>
-                </div>
                 <div style={{height:'100%'}}> 
+                     <h1 className="mens_title">Clothings</h1>
                     <MensList/>
                 </div>
             </div>

@@ -1,0 +1,26 @@
+.prod_sidebar{
+    height: 600px;
+    width: 300px;
+    border: 1px solid black;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.prod_sidebar>div>h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.prod_sidebar>div{
+    text-align: left;
+    font-size: 20px;
+    /* padd */
+}
+
+.prod_sidebar>h1{
+    font-size: 12px ;
+    color: grey;
+    margin-left: -90px;
+    margin-bottom: 30px;
+}
