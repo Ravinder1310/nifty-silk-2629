@@ -2,9 +2,11 @@ import React from "react";
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import Menuitem from "../components/homepage/MenuItem";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  let navigate = useNavigate();
   
   return (
     <div>
@@ -469,6 +471,9 @@ const Navbar = () => {
 
             <Box>
                  <Button>Login</Button> 
+            </Box>
+            <Box>
+                 <Button  onClick={()=>navigate("/AdminDash")}>Admin</Button> 
             </Box>
 
             <Link>

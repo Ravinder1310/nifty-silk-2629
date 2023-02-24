@@ -1,19 +1,15 @@
-import { Box, Input, Button, Text, Center, Flex } from "@chakra-ui/react";
+import { Input, Button, Text, Flex } from "@chakra-ui/react";
 import React from "react";
 // import {useNavigate } from "react-router-dom";
-import {AuthContext} from "../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
+import Navbar from "../Navbar";
 
 const AdminLogin = () => {
-  const {
-    adminData,
-    setAdminData,
-    adminLogin,
-  } = React.useContext(AuthContext);
+  const { adminData, setAdminData, adminLogin } = React.useContext(AuthContext);
 
   const handleAdminChange = (event) => {
     setAdminData({ ...adminData, [event.target.name]: event.target.value });
   };
-
 
   const handleAdminSubmit = (event, adminData) => {
     event.preventDefault();
@@ -22,22 +18,20 @@ const AdminLogin = () => {
 
   return (
     <>
-      <Box bg="grey" p={4} color="white" height="100px">
-        <Center>
-          {/* <Image src={logo} boxSize="70px" width="15%" alt="" /> */}
-        </Center>
-      </Box>
+      <Navbar />
       <Flex
         margin="auto"
         width="450px"
         padding="20px"
         shadow="dark-lg"
         direction="column"
-        height="280px"
+        height="300px"
         justifyContent="space-evenly"
-        marginTop="40px"
+        marginTop="200px"
         alignItems="center">
-        <Text fontWeight="bold">Only Admin Login</Text>
+        <Text fontWeight="800" fontSize="20px">
+          ADMIN LOGIN
+        </Text>
         <Input
           type="text"
           placeholder="Admin"
@@ -56,7 +50,9 @@ const AdminLogin = () => {
           value={adminData.password}
           onChange={(event) => handleAdminChange(event)}
         />
-        <Button width="80%" onClick={(event) => handleAdminSubmit(event, adminData)}
+        <Button
+          width="80%"
+          onClick={(event) => handleAdminSubmit(event, adminData)}
           colorScheme="blue">
           <Text fontSize="18px" fontWeight="bold" color="white">
             Submit
@@ -65,6 +61,6 @@ const AdminLogin = () => {
       </Flex>
     </>
   );
-}
+};
 
 export default AdminLogin;
