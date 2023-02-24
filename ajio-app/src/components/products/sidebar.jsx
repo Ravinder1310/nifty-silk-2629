@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
 import { useSearchParams } from "react-router-dom";
+import "../prodStyles/sidebar.css"
 
 
 export const Sidebar = (e) => {
@@ -38,9 +39,10 @@ export const Sidebar = (e) => {
 
     return (
   
-  <div  style={{width:'250px',border:'1px solid blue'}}>
+  <div className="prod_sidebar">
+    <h1>Home / D2C Fashion</h1>
         <div>
-            <h3>Filter by:</h3>
+            <h1>Filter by:</h1>
             <div>
                 <input type='checkbox' value='t-shirt' onChange={handleFilter} checked={category.includes("t-shirt")}/>
                 <label>T-Shirts</label>
@@ -62,15 +64,6 @@ export const Sidebar = (e) => {
                 <label>Hoddies</label>
             </div>
         </div>
-            <div>
-                <h3>Sort with order</h3>
-                <div onChange={handleSort}>
-                    <input type="radio" name="sort_by" value={'asc'} defaultChecked={order === "asc"}/>
-                    <label>Ascending</label>
-                    <input type="radio" name="sort_by" value={'desc'} defaultChecked={order === "desc"}/>
-                    <label>Descending</label>
-                </div>
-            </div>
         </div>
     )
 }
