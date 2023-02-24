@@ -42,20 +42,24 @@ export const Sidebar = (e) => {
         <div>
             <h3>Filter by:</h3>
             <div>
-                <input type='checkbox' value='Novel' onChange={handleFilter} checked={category.includes("Novel")}/>
-                <label>Novel</label>
+                <input type='checkbox' value='t-shirt' onChange={handleFilter} checked={category.includes("t-shirt")}/>
+                <label>T-Shirts</label>
             </div>
             <div>
-                <input type='checkbox' value='Motivational' onChange={handleFilter} checked={category.includes("Motivational")}/>
-                <label>Motivational</label>
+                <input type='checkbox' value='shirt' onChange={handleFilter} checked={category.includes("shirt")}/>
+                <label>Shirts</label>
             </div>
             <div>
-                <input type='checkbox' value='Thriller' onChange={handleFilter} checked={category.includes("Thriller")}/>
-                <label>Thriller</label>
+                <input type='checkbox' value='jeans' onChange={handleFilter} checked={category.includes("jeans")}/>
+                <label>Jeans</label>
             </div>
             <div>
-                <input type='checkbox' value='Science_Fiction' onChange={handleFilter} checked={category.includes("Science_Fiction")}/>
-                <label>Science Fiction</label>
+                <input type='checkbox' value='pants' onChange={handleFilter} checked={category.includes("pants")}/>
+                <label>Track-Pants</label>
+            </div>
+            <div>
+                <input type='checkbox' value='hoodie' onChange={handleFilter} checked={category.includes("hoodie")}/>
+                <label>Hoddies</label>
             </div>
         </div>
             <div>

@@ -15,7 +15,7 @@ const getProductsFailureAction = () => {
 export const getProducts =(params={}) => (dispatch) => {
     dispatch(getProductsRequestAction());
 
-    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/mens`).then((res)=>{
+    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/mens`,params).then((res)=>{
         dispatch(getProductsSuccessAction(res.data))
     }).catch((error)=>{
         dispatch(getProductsFailureAction(error))
