@@ -1,8 +1,8 @@
-import { Input, Button, Text, Flex } from "@chakra-ui/react";
+import { Input, Button, Text, Flex, Box, Center, Image } from "@chakra-ui/react";
 import React from "react";
 // import {useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
-import Navbar from "../Navbar";
+import logo from "../../logo.png";
 
 const AdminLogin = () => {
   const { adminData, setAdminData, adminLogin } = React.useContext(AuthContext);
@@ -18,16 +18,20 @@ const AdminLogin = () => {
 
   return (
     <>
-      <Navbar />
+      <Box bg="grey" p={4} color="white" width="100%" height="100px">
+        <Center>
+          <Image src={logo} boxSize="70px" width="15%" alt="" />
+        </Center>
+      </Box>
       <Flex
         margin="auto"
-        width="450px"
+        width={{base:"300px",sm:"350px",md:"400px",lg:"450px"}}
         padding="20px"
         shadow="dark-lg"
         direction="column"
         height="300px"
         justifyContent="space-evenly"
-        marginTop="200px"
+        marginTop="60px"
         alignItems="center">
         <Text fontWeight="800" fontSize="20px">
           ADMIN LOGIN
