@@ -1,20 +1,24 @@
 import { Link } from "react-router-dom"
+import "../prodStyles/mens.css"
 
 
 export const MensCard = ({men}) => {
     return (
-        <div style={{border:'1px solid red',padding:'20px'}}>
+        <div className="mens_cards">
             {/* <Link to={`/book/${book.id}`}> */}
-            <img src={men.images} alt='Error' width={150}/>
+            <img src={men.images} alt='Error' width={"100%"}/>
             {/* </Link> */}
             <h3>{men.brand}</h3>
             <p>{men.nameCls}</p>
-            <p>{men.price}</p>
-            <p>{men.discount}</p>
+            <div>
+            <p className="price">₹{men.price}</p>
+            <p className="original_price">₹{men.orginal_price}</p>
+            <p className="mens_discount">({men.discount}% off)</p>
+            </div>
+            <p className="offer_price">Offer price ₹{men.offer_price}</p>
             {/* <Link to={`/book/${book.id}/edit`}>
             <button>Edit</button>
             </Link> */}
-            <button>Hello</button>
         </div>
     )
 }

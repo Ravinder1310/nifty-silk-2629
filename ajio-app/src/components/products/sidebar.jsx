@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
 import { useSearchParams } from "react-router-dom";
+import "../prodStyles/sidebar.css"
 
 
 export const Sidebar = (e) => {
@@ -38,35 +39,31 @@ export const Sidebar = (e) => {
 
     return (
   
-  <div  style={{width:'250px',border:'1px solid blue'}}>
+  <div className="prod_sidebar">
+    <h1>Home / D2C Fashion</h1>
         <div>
-            <h3>Filter by:</h3>
+            <h1>Filter by:</h1>
             <div>
-                <input type='checkbox' value='Novel' onChange={handleFilter} checked={category.includes("Novel")}/>
-                <label>Novel</label>
+                <input type='checkbox' value='t-shirt' onChange={handleFilter} checked={category.includes("t-shirt")}/>
+                <label>T-Shirts</label>
             </div>
             <div>
-                <input type='checkbox' value='Motivational' onChange={handleFilter} checked={category.includes("Motivational")}/>
-                <label>Motivational</label>
+                <input type='checkbox' value='shirt' onChange={handleFilter} checked={category.includes("shirt")}/>
+                <label>Shirts</label>
             </div>
             <div>
-                <input type='checkbox' value='Thriller' onChange={handleFilter} checked={category.includes("Thriller")}/>
-                <label>Thriller</label>
+                <input type='checkbox' value='jeans' onChange={handleFilter} checked={category.includes("jeans")}/>
+                <label>Jeans</label>
             </div>
             <div>
-                <input type='checkbox' value='Science_Fiction' onChange={handleFilter} checked={category.includes("Science_Fiction")}/>
-                <label>Science Fiction</label>
+                <input type='checkbox' value='pants' onChange={handleFilter} checked={category.includes("pants")}/>
+                <label>Track-Pants</label>
+            </div>
+            <div>
+                <input type='checkbox' value='hoodie' onChange={handleFilter} checked={category.includes("hoodie")}/>
+                <label>Hoddies</label>
             </div>
         </div>
-            <div>
-                <h3>Sort with order</h3>
-                <div onChange={handleSort}>
-                    <input type="radio" name="sort_by" value={'asc'} defaultChecked={order === "asc"}/>
-                    <label>Ascending</label>
-                    <input type="radio" name="sort_by" value={'desc'} defaultChecked={order === "desc"}/>
-                    <label>Descending</label>
-                </div>
-            </div>
         </div>
     )
 }
