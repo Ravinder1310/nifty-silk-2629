@@ -22,6 +22,7 @@ const AllRoutes = () => {
         <Route path="/AdminLogin" element={<AdminLogin />} />
         <Route path="/cart" element={<Cart />} /> 
       </Routes>
+      </Box>
       </div>
   );
 };
