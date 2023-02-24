@@ -1,4 +1,4 @@
-import { DeleteIcon } from "@chakra-ui/icons";
+import { AddIcon, CheckCircleIcon, DeleteIcon } from "@chakra-ui/icons";
 import {
   Badge,
   Box,
@@ -11,23 +11,48 @@ import {
   GridItem,
   Heading,
   Image,
+  SlideFade,
   Stack,
   TagLabel,
   Text,
+  useDisclosure,
 } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import CartCrumb from "../components/cart/CartCrumb";
 import cart from "./data";
 import CartItem from "../components/cart/CartItem";
+import OrderDetails from "../components/cart/OrderDetails";
+import Address from "../components/cart/Address";
+import Payment from "../components/cart/Payment";
 
 function Cart() {
   const [page, setPage] = useState(1);
-  const [bagTotal, setBagTotal] = useState(0)
-  const [total, setTotal] = useState(0)
+  const [bagTotal, setBagTotal] = useState(0);
+  const [totalDiscount, setTotalDiscount] = useState(0);
+  const [total, setTotal] = useState(0);
+  const { isOpen, onToggle } = useDisclosure();
+  const [order, setOrder] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const confirmOrder = () => {
+    setLoading(true);
+    setTimeout(completeOrder, 5000);
+  };
+
+  const completeOrder = () => {
+    setLoading(false);
+    setOrder(true);
+    setTimeout(redirect, 3000);
+  };
+
+  const redirect = () => {
+    window.location.href = "/";
+  };
 
   useEffect(() => {
     let sumTotal = 0;
     let bagTotal = 0;
+    let discount = 0;
 
     cart.map((item) => {
       sumTotal += item.price * item.qty;
@@ -37,69 +62,140 @@ function Cart() {
       bagTotal += item.orginalPrice * item.qty;
     });
 
+    cart.map((item) => {
+      discount += item.orginalPrice - item.price;
+    });
+
     setTotal(sumTotal);
     setBagTotal(bagTotal);
-
+    setTotalDiscount(discount);
   }, [page]);
 
-
-
-  return (
-    <Box py={12} px={"180px"}>
-      <CartCrumb setPage={setPage} />
-      <Box mt={6}>
-        <Text mb={4} textAlign={"left"}>
-          <b>My Bag</b> ({cart.length} items)
+  if (order) {
+    return (
+      <Box mt={"100px"} textAlign="center" py={10} px={6}>
+        <CheckCircleIcon boxSize={"50px"} color={"green.500"} />
+        <Heading as="h2" size="xl" mt={6} mb={2}>
+          Order placed successfully
+        </Heading>
+        <Text color={"gray.500"}>
+          You will recieve an email with tracking information once your goods
+          have shipped.
         </Text>
-        <Grid
-          templateAreas={{
-            base: `"right"
-                   "left"`,
-            xl: `"left right"`,
-          }}
-          gridTemplateColumns={{ base: "1", xl: "80% 20%" }}
-          gap={4}>
-          <GridItem area={"left"}>
-            {cart.map((item) => {
-              return (
-                <CartItem
-                  img={item.img}
-                  title={item.title}
-                  price={item.price}
-                  orginalPrice={item.orginalPrice}
-                  discount={item.discount}
-                />
-              );
-            })}
-          </GridItem>
-          <GridItem area={"right"}>
-            <Card
-              maxW={"300px"}
-              textAlign={"left"}
-              h={"max-content"}
-              variant={"outline"}
-              p={6}>
-              <Heading mb={4} fontSize={"lg"}>
-                Order Details
-              </Heading>
-              <Flex mb={2} justifyContent={"space-between"}>
-                <Text>Bag total</Text>
-                <Text>₹{bagTotal}</Text>
-              </Flex>
-              <Flex mb={2} justifyContent={"space-between"}>
-                <Text>Delivery fee</Text>
-                <Flex gap={1}>Free<Text textDecoration={"line-through"}>₹99</Text></Flex>
-              </Flex>
-              <Flex mb={2} justifyContent={"space-between"}>
-                <Text>Grand total</Text>
-                <Text>₹{bagTotal}</Text>
-              </Flex>
-            </Card>
-          </GridItem>
-        </Grid>
       </Box>
-    </Box>
-  );
+    );
+  }
+
+  if (page === 1) {
+    return (
+      <Box py={"100px"} px={"180px"}>
+        <CartCrumb onToggle={onToggle} page={page} setPage={setPage} />
+        <Box mt={6}>
+          <Text mb={4} textAlign={"left"}>
+            <b>My Bag</b> ({cart.length} items)
+          </Text>
+          <Grid
+            templateAreas={{
+              base: `"right"
+                     "left"`,
+              xl: `"left right"`,
+            }}
+            gridTemplateColumns={{ base: "1", xl: "80% 20%" }}
+            gap={4}>
+            <SlideFade in={isOpen} offsetY={"20px"}>
+              <GridItem area={"left"}>
+                {cart.map((item) => {
+                  return (
+                    <CartItem
+                      quantity={item.qty}
+                      img={item.img}
+                      title={item.title}
+                      price={item.price}
+                      orginalPrice={item.orginalPrice}
+                      discount={item.discount}
+                    />
+                  );
+                })}
+              </GridItem>
+            </SlideFade>
+            <OrderDetails
+              isOpen={isOpen}
+              onToggle={onToggle}
+              page={page}
+              setPage={setPage}
+              discount={totalDiscount}
+              bagTotal={bagTotal}
+              total={total}
+            />
+          </Grid>
+        </Box>
+      </Box>
+    );
+  }
+
+  if (page === 2) {
+    return (
+      <Box py={"100px"} px={"180px"}>
+        <CartCrumb setPage={setPage} />
+        <Box mt={6}>
+          <Text mb={4} textAlign={"left"}>
+            <b>Address</b>
+          </Text>
+          <Grid
+            templateAreas={{
+              base: `"right"
+                       "left"`,
+              xl: `"left right"`,
+            }}
+            gridTemplateColumns={{ base: "1", xl: "80% 20%" }}
+            gap={4}>
+            <Address setPage={setPage} isOpen={isOpen} />
+            <OrderDetails
+              page={page}
+              setPage={setPage}
+              discount={totalDiscount}
+              bagTotal={bagTotal}
+              total={total}
+            />
+          </Grid>
+        </Box>
+      </Box>
+    );
+  }
+
+  if (page === 3) {
+    return (
+      <Box py={"100px"} px={"180px"}>
+        <CartCrumb setPage={setPage} />
+        <Box mt={6}>
+          <Text mb={4} textAlign={"left"}>
+            <b>Payment Details</b>
+          </Text>
+          <Grid
+            templateAreas={{
+              base: `"right"
+                       "left"`,
+              xl: `"left right"`,
+            }}
+            gridTemplateColumns={{ base: "1", xl: "80% 20%" }}
+            gap={4}>
+            <Payment
+              isOpen={isOpen}
+              loading={loading}
+              confirmOrder={confirmOrder}
+            />
+            <OrderDetails
+              page={page}
+              setPage={setPage}
+              discount={totalDiscount}
+              bagTotal={bagTotal}
+              total={total}
+            />
+          </Grid>
+        </Box>
+      </Box>
+    );
+  }
 }
 
 export default Cart;
