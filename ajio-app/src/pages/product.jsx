@@ -6,7 +6,7 @@ export const Products = () => {
     return (
         <div>
             {/* <Navbar/> */}
-            <div style={{display:'flex',marginTop:'30px'}}>
+            <div style={{display:'flex',marginTop:'100px'}}>
                 <div style={{height:'100%'}}>
                     <Sidebar/>
                 </div>
