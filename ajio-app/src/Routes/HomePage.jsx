@@ -9,7 +9,7 @@ import ImageSlider5 from '../components/homepage/ImageSlider5'
 import ImageSlider6 from '../components/homepage/ImageSlider6'
 import ImageSlider7 from '../components/homepage/ImageSlider7'
 import ImageSlider8 from '../components/homepage/ImageSlider8'
-import Footer from '../components/Footer'
+import Footer from "../components/footer/Footer"
 
 const HomePage = () => {
   return (
