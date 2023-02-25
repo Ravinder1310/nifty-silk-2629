@@ -9,7 +9,10 @@ import { PrivateRoute } from "./PrivateRoute";
 import { Products } from "../pages/product";
 import AdminManage from "../components/Admin/AdminManage";
 import AdminAdd from "../components/Admin/AdminAdd";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7f63413828978c81441d0542508f5422cff7c57f
 
 const AllRoutes = () => {
   return (

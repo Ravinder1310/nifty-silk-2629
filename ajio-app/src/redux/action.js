@@ -16,8 +16,8 @@ export const getProducts =(params={}) => (dispatch) => {
     dispatch(getProductsRequestAction());
     const type = "mens";
 
-    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/products`,params).then((res)=>{
-        dispatch(getProductsSuccessAction(res.data.mens))
+    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/womens`,params).then((res)=>{
+        dispatch(getProductsSuccessAction(res.data))
     }).catch((error)=>{
         dispatch(getProductsFailureAction(error))
     })

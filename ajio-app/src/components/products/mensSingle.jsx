@@ -15,7 +15,7 @@ export const MensCard = ({men}) => {
             <p className="original_price">₹{men.orginal_price}</p>
             <p className="mens_discount">({men.discount}% off)</p>
             </div>
-            <p className="offer_price">Offer price ₹{men.offer_price}</p>
+            <p className="offer_price">Offer price ₹{men.price-80}</p>
             {/* <Link to={`/book/${book.id}/edit`}>
             <button>Edit</button>
             </Link> */}

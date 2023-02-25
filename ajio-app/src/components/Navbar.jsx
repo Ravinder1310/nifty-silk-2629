@@ -472,6 +472,7 @@ const Navbar = () => {
             <Box>
                  <Button>Login</Button> 
             </Box>
+
             <Link>
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
@@ -488,5 +489,3 @@ const Navbar = () => {
 
 
 export default Navbar;
-
-
