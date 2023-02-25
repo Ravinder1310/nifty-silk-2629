@@ -25,9 +25,9 @@ export const Sidebar = (e) => {
        
     }
 
-    const handleSort = (e) => {
-      setOrder(e.target.value);
-    }
+    // const handleSort = (e) => {
+    //   setOrder(e.target.value);
+    // }
     // console.log(category);
     useEffect(() => {
         const params = {

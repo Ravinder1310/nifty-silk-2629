@@ -2,12 +2,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {Box} from '@chakra-ui/react'
 import HomePage from "./HomePage";
-import AdminDash from "../component/Admin/AdminDash";
-import AdminLogin from "../component/Admin/adminlogin";
+import AdminDash from "../components/Admin/AdminDash";
+import AdminLogin from "../components/Admin/adminlogin";
 import Cart from "../pages/cart";
 import { PrivateRoute } from "./PrivateRoute";
 import { Products } from "../pages/product";
 import AdminManage from "../components/Admin/AdminManage";
+import AdminAdd from "../components/Admin/AdminAdd";
 
 const AllRoutes = () => {
   return (
