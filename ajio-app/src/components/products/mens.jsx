@@ -50,7 +50,7 @@ export const MensList = () => {
                 <h1>SORT BY</h1>
               <select name="order" id="order" style={{border:"1px solid black",padding:"5px 5px"}}>
               {/* <option value="">Select by price</option>   */}
-                <option value="">Price(Lowest first)</option>  
+                <option value="hello">Price(Lowest first)</option>  
                 <option value="">Discount</option>  
                 <option value="">Price(Highest first)</option>
                 <option value="">What's New</option>  
