@@ -472,10 +472,6 @@ const Navbar = () => {
             <Box>
                  <Button>Login</Button> 
             </Box>
-            <Box>
-                 <Button  onClick={()=>navigate("/AdminDash")}>Admin</Button> 
-            </Box>
-
             <Link>
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
