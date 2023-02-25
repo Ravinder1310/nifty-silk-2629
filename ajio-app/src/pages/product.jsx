@@ -1,3 +1,5 @@
+import Footer from "../components/footer/Footer";
+import Navbar from "../components/Navbar";
 import { MensList } from "../components/products/mens";
 // import { Navbar } from "../components/Navbar";
 import { Sidebar } from "../components/products/sidebar";
@@ -5,7 +7,7 @@ import { Sidebar } from "../components/products/sidebar";
 export const Products = () => {
     return (
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             <div style={{display:'flex',marginTop:'100px',justifyContent:"space-around"}}>
                     <Sidebar/>
                 <div style={{height:'100%'}}> 
@@ -13,6 +15,7 @@ export const Products = () => {
                     <MensList/>
                 </div>
             </div>
+            <Footer/>  
         </div>
     )
 };
