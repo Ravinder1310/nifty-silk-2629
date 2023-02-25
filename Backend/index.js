@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 
 
 
-app.listen(4500,async()=>{
+app.listen(process.env.port,async()=>{
     try {
         await connection;
         console.log("connected to DB");
@@ -22,5 +22,5 @@ app.listen(4500,async()=>{
         console.log(error);
     }
     
-    console.log("Server is running at port 4500");
+    console.log(`Server is running at port 4500 ${process.env.port}`);
 })
