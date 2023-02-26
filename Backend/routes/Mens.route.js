@@ -13,6 +13,7 @@ mensRoute.get("/",async(req,res)=>{
     }
 })
 
+
 mensRoute.post("/create",async(req,res)=>{
     const post = req.body;
     try {
@@ -40,6 +41,7 @@ mensRoute.patch("/update/:id",async(req,res)=>{
             res.send({"msg":"error in updating","error":err})
       }
 })
+
 
 mensRoute.delete("/delete/:id",async(req,res)=>{
       const ID = req.params.id
