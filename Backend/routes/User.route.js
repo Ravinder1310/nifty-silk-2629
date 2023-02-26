@@ -9,6 +9,8 @@ userRoute.get("/",(req,res)=>{
 })
 
 
+
+
 userRoute.post("/register",async(req,res)=>{
     const {name,email,gender,city,password} = req.body;
     try {
