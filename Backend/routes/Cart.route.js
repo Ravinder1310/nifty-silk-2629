@@ -1,12 +1,12 @@
 const express = require("express");
-const {MensModel} = require("../models/Mens.model");
+const {CartModel} = require("../models/Cart.model");
 
 const cartRoute = express.Router();
 
 cartRoute.get("/",async(req,res)=>{
     const userID = req.body.userID;
     try {
-        const allPost = await MensModel.find({userID})
+        const allPost = await CartModel.find({userID})
         res.send(allPost);
     } catch (err) {
         res.send({"msg":"error in fetching","error":err})
@@ -16,7 +16,7 @@ cartRoute.get("/",async(req,res)=>{
 cartRoute.post("/create",async(req,res)=>{
     const post = req.body;
     try {
-       let newPost = new MensModel(post);
+       let newPost = new CartModel(post);
        await newPost.save();
        res.send({"msg":"post successfully"})   
     } catch (err) {
@@ -29,9 +29,9 @@ cartRoute.patch("/update/:id",async(req,res)=>{
       const payload = req.body;
       const userID = payload.userID;
       try {
-        const findUser = await MensModel.find({_id:ID});
+        const findUser = await CartModel.find({_id:ID});
         if(findUser[0].userID===userID){
-            await MensModel.findByIdAndUpdate({_id:ID},payload);
+            await CartModel.findByIdAndUpdate({_id:ID},payload);
             res.send({"msg":"updated successfully"}); 
         }else{
             res.send({"msg":"You are not authorized"})
@@ -45,9 +45,9 @@ cartRoute.delete("/delete/:id",async(req,res)=>{
       const ID = req.params.id
       const userID = req.body.userID;
       try {
-        const findUser = await MensModel.find({_id:ID});
+        const findUser = await CartModel.find({_id:ID});
         if(findUser[0].userID===userID){
-            await MensModel.findByIdAndDelete(ID);
+            await CartModel.findByIdAndDelete(ID);
             res.send({"msg":"delete successfully"}); 
         }else{
             res.send({"msg":"You are not authorized"})
