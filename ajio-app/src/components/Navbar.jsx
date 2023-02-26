@@ -4,6 +4,7 @@ import { BsFillBagCheckFill } from "react-icons/bs";
 import Menuitem from "../components/homepage/MenuItem";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import logo from "../logo.png"
 
 const Navbar = () => {
   let navigate = useNavigate();
@@ -23,15 +24,18 @@ const Navbar = () => {
         <Box>
           <Link to="/">
             <Image
-              src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
-              width="150px"
+              src={logo}
+              width="100px"
+              height={"60px"}
+              borderRadius={"10%"}
             ></Image>
           </Link>
         </Box>
         <Box>
           <Flex gap="30px" alignItems={"center"}>
-            <Link>
+            <Link to={"./mens"}>
               <Box>
+                
                 <Menuitem
                   navitem={"MEN"}
                   item1={
@@ -136,6 +140,7 @@ const Navbar = () => {
                     </Box>
                   }
                 />
+                
               </Box>
             </Link>
             <Link >
@@ -473,7 +478,7 @@ const Navbar = () => {
                  <Button>Login</Button> 
             </Box>
 
-            <Link>
+            <Link to={"/cart"}>
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
                 <Text alignSelf={"end"} ></Text>

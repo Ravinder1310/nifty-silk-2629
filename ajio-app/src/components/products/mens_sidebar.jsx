@@ -4,7 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import "../prodStyles/sidebar.css"
 
 
-export const Sidebar = (e) => {
+export const MensSidebar = (e) => {
 
     const [searchParams,setSearchParams] = useSearchParams();
     const initialCategory = searchParams.getAll("category") // ['Novel','Motivational']

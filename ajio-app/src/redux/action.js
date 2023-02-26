@@ -12,11 +12,33 @@ const getProductsFailureAction = () => {
     return {type:GET_PRODUCT_FAILURE};
 }
 
-export const getProducts =(params={}) => (dispatch) => {
+export const getMensProducts =(params={}) => (dispatch) => {
     dispatch(getProductsRequestAction());
-    const type = "mens";
+    // const type = "mens";
 
-    axios.get(`http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}/womens`,params).then((res)=>{
+    axios.get(`https://odd-deer-hoodie.cyclic.app/mens`,params).then((res)=>{
+        dispatch(getProductsSuccessAction(res.data))
+    }).catch((error)=>{
+        dispatch(getProductsFailureAction(error))
+    })
+}
+
+export const getWomensProducts =(params={}) => (dispatch) => {
+    dispatch(getProductsRequestAction());
+    // const type = "mens";
+
+    axios.get(`https://odd-deer-hoodie.cyclic.app/womens`,params).then((res)=>{
+        dispatch(getProductsSuccessAction(res.data))
+    }).catch((error)=>{
+        dispatch(getProductsFailureAction(error))
+    })
+}
+
+export const getKidsProducts =(params={}) => (dispatch) => {
+    dispatch(getProductsRequestAction());
+    // const type = "mens";
+
+    axios.get(`https://odd-deer-hoodie.cyclic.app/kids`,params).then((res)=>{
         dispatch(getProductsSuccessAction(res.data))
     }).catch((error)=>{
         dispatch(getProductsFailureAction(error))
