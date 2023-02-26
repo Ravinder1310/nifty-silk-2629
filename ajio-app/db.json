@@ -173,7 +173,7 @@
           "price": 1689,
           "orginal_price": 2599,
           "discount": 35,
-          "category":"trusers",
+          "category":"trouser",
           "offer_price": 1233
         },
         {
@@ -195,7 +195,7 @@
           "price": 824,
           "orginal_price": 1499,
           "discount": 5,
-          "category":"trusers",
+          "category":"trouser",
           "offer_price": 750
         },
         {
@@ -558,6 +558,7 @@
         "nameCls": "High-Rise Stretch Pants",
         "price": 400,
         "orginal_price": 999,
+        "category":"pants",
         "discount": 60,
         "offer_price": "340"
       }, {
@@ -567,6 +568,7 @@
         "nameCls": "Printed Round-Neck Flared Kurta Set",
         "price": 1499,
         "orginal_price": 3699,
+        "category":"kurta",
         "discount": 59,
         "offer_price": "925"
       }, {
@@ -576,6 +578,7 @@
         "nameCls": "Embellished A-line Kurta Sets",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -585,6 +588,7 @@
         "nameCls": "Track Pants with Contrast Side Taping",
         "price": 254,
         "orginal_price": 499,
+        "category":"pants",
         "discount": 49,
         "offer_price": "250"
       }, {
@@ -594,6 +598,7 @@
         "nameCls": "Tie & Dye Print T-shirt & Pyjamas Set",
         "price": 760,
         "orginal_price": 1899,
+        "category":"t-shirt",
         "discount": 60,
         "offer_price": "684"
       }, {
@@ -603,6 +608,7 @@
         "nameCls": "Ankle-Length Leggings with Elasticated Waist",
         "price": 359,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 10,
         "offer_price": "359"
       }, {
@@ -612,6 +618,7 @@
         "nameCls": "Straight Kurta Set with Dupatta",
         "price": 1500,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "900"
       }, {
@@ -621,6 +628,7 @@
         "nameCls": "Leaf Print Flared Kurta",
         "price": 874,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 62,
         "offer_price": "575"
       }, {
@@ -630,6 +638,7 @@
         "nameCls": "Printed Anarkali Kurta Suit Set",
         "price": 1599,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 36,
         "offer_price": "959"
       }, {
@@ -639,6 +648,7 @@
         "nameCls": "High-Rise Stretch Pants",
         "price": 400,
         "orginal_price": 999,
+        "category":"pants",
         "discount": 60,
         "offer_price": "340"
       }, {
@@ -648,6 +658,7 @@
         "nameCls": "Ankle-Length Leggings with Elasticated Waist",
         "price": 359,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 10,
         "offer_price": "359"
       }, {
@@ -657,6 +668,7 @@
         "nameCls": "Embroidered Flared Kurta with Dupatta",
         "price": 1242,
         "orginal_price": 2699,
+        "category":"kurta",
         "discount": 54,
         "offer_price": "745"
       }, {
@@ -666,6 +678,7 @@
         "nameCls": "Floral Print Anarkali Kurta with Tie-Up",
         "price": 663,
         "orginal_price": 1699,
+        "category":"kurta",
         "discount": 61,
         "offer_price": "425"
       }, {
@@ -675,6 +688,7 @@
         "nameCls": "Floral Embroidered Top with Palazzos Set",
         "price": 2772,
         "orginal_price": 7699,
+        "category":"plazzos",
         "discount": 64,
         "offer_price": 1925
       }, {
@@ -684,6 +698,7 @@
         "nameCls": "Floral Print A-line Kurta Set",
         "price": 1199,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 52,
         "offer_price": "719"
       }, {
@@ -693,6 +708,7 @@
         "nameCls": "Flared Flat-Front Pant",
         "price": 800,
         "orginal_price": 1999,
+        "category":"pants",
         "discount": 60,
         "offer_price": "799"
       }, {
@@ -702,6 +718,7 @@
         "nameCls": "Acid-Wash Wide-Leg Jeans",
         "price": 667,
         "orginal_price": 2299,
+        "category":"jeans",
         "discount": 71,
         "offer_price": "666"
       }, {
@@ -711,6 +728,7 @@
         "nameCls": "Floral Print Flared Kurta Set",
         "price": 999,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 67,
         "offer_price": "750"
       }, {
@@ -720,6 +738,7 @@
         "nameCls": "Floral Print Flared Kurta Suit Set",
         "price": 1599,
         "orginal_price": 3799,
+        "category":"kurta",
         "discount": 58,
         "offer_price": "959"
       }, {
@@ -729,6 +748,7 @@
         "nameCls": "Floral Flared Kurta",
         "price": 900,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 55,
         "offer_price": "540"
       }, {
@@ -738,6 +758,7 @@
         "nameCls": "Floral Print Straight Kurta Set",
         "price": 1499,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 40,
         "offer_price": "899"
       }, {
@@ -747,6 +768,7 @@
         "nameCls": "High-Rise Stretch Pants",
         "price": 400,
         "orginal_price": 999,
+        "category":"pants",
         "discount": 60,
         "offer_price": "340"
       }, {
@@ -756,6 +778,7 @@
         "nameCls": "Striped Print Straight Kurta Set",
         "price": 799,
         "orginal_price": 1399,
+        "category":"kurta",
         "discount": 43,
         "offer_price": "479"
       }, {
@@ -765,6 +788,7 @@
         "nameCls": "Floral Embroidered Flared Kurta",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -774,6 +798,7 @@
         "nameCls": "Mid-Rise Skinny Fit Jeans",
         "price": 639,
         "orginal_price": 799,
+        "category":"jeans",
         "discount": 20,
         "offer_price": "638"
       }, {
@@ -783,6 +808,7 @@
         "nameCls": "High-Rise Straight Fit Pants",
         "price": 460,
         "orginal_price": 1999,
+        "category":"pants",
         "discount": 77,
         "offer_price": "459"
       }, {
@@ -792,6 +818,7 @@
         "nameCls": "Printed Shorts with Elasticated Waist",
         "price": 120,
         "orginal_price": 249,
+        "category":"shorts",
         "discount": 52,
         "offer_price": "120"
       }, {
@@ -801,6 +828,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 875,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 65,
         "offer_price": "625"
       }, {
@@ -810,6 +838,7 @@
         "nameCls": "Floral Print Flared Kurta Set with Dupatta",
         "price": 1499,
         "orginal_price": 3699,
+        "category":"kurta",
         "discount": 59,
         "offer_price": "925"
       }, {
@@ -819,6 +848,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -828,6 +858,7 @@
         "nameCls": "Printed Tiered Dress with Waist Tie-Up",
         "price": 874,
         "orginal_price": 1899,
+        "category":"tiered dress",
         "discount": 54,
         "offer_price": "524"
       }, {
@@ -837,6 +868,7 @@
         "nameCls": "Mid-Wash Skinny Fit Jeans",
         "price": 799,
         "orginal_price": 999,
+        "category":"jeans",
         "discount": 20,
         "offer_price": "798"
       }, {
@@ -846,6 +878,7 @@
         "nameCls": "Floral Print Flared Kurta Set",
         "price": 1241,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 46,
         "offer_price": "745"
       }, {
@@ -855,6 +888,7 @@
         "nameCls": "Embellished Round-Neck Tiered Dress",
         "price": 1410,
         "orginal_price": 3499,
+        "category":"tiered dress",
         "discount": 60,
         "offer_price": 1260
       }, {
@@ -864,6 +898,7 @@
         "nameCls": "Novelty Straight Kurta",
         "price": 692,
         "orginal_price": 1049,
+        "category":"kurta",
         "discount": 34,
         "offer_price": "415"
       }, {
@@ -873,6 +908,7 @@
         "nameCls": "Striped Print Kurta with Button Placket",
         "price": 755,
         "orginal_price": 1399,
+        "category":"kurta",
         "discount": 46,
         "offer_price": "453"
       }, {
@@ -882,6 +918,7 @@
         "nameCls": "Floral Print A-line Kurta Set",
         "price": 1125,
         "orginal_price": 2500,
+        "category":"kurta",
         "discount": 55,
         "offer_price": "675"
       }, {
@@ -891,6 +928,7 @@
         "nameCls": "Pack of 3 Briefs",
         "price": 150,
         "orginal_price": 1303,
+        "category":"pack of 3",
         "discount": 89,
         "offer_price": "150"
       }, {
@@ -900,6 +938,7 @@
         "nameCls": "Floral Embroidery Flared Kurta Sets",
         "price": 1424,
         "orginal_price": 3650,
+        "category":"kurta",
         "discount": 61,
         "offer_price": 1423
       }, {
@@ -909,6 +948,7 @@
         "nameCls": "Churidar Leggings with Elasticated Waistband",
         "price": 283,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 29,
         "offer_price": "279"
       }, {
@@ -918,6 +958,7 @@
         "nameCls": "Chevron Print Straight Kurta",
         "price": 1394,
         "orginal_price": 3399,
+        "category":"kurta",
         "discount": 59,
         "offer_price": "850"
       }, {
@@ -927,6 +968,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -936,6 +978,7 @@
         "nameCls": "Animal Print High-Neck Top",
         "price": 684,
         "orginal_price": 1899,
+        "category":"top",
         "discount": 64,
         "offer_price": "475"
       }, {
@@ -945,6 +988,7 @@
         "nameCls": "Embellished Flared Kurta Suit Set",
         "price": 1332,
         "orginal_price": 3599,
+        "category":"kurta",
         "discount": 63,
         "offer_price": "900"
       }, {
@@ -954,6 +998,7 @@
         "nameCls": "Cuffed Cargo Pants with Tie-Up",
         "price": 507,
         "orginal_price": 1299,
+        "category":"pants",
         "discount": 61,
         "offer_price": "325"
       }, {
@@ -963,6 +1008,7 @@
         "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
         "price": 759,
         "orginal_price": 2299,
+        "category":"jeans",
         "discount": 67,
         "offer_price": "736"
       }, {
@@ -972,6 +1018,7 @@
         "nameCls": "Floral Print Fit & Flare Dress",
         "price": 1149,
         "orginal_price": 2299,
+        "category":"flare",
         "discount": 50,
         "offer_price": "689"
       }, {
@@ -981,6 +1028,7 @@
         "nameCls": "Embroidered Round-Neck Straight Kurta",
         "price": 800,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 60,
         "offer_price": "500"
       }, {
@@ -990,6 +1038,7 @@
         "nameCls": "Floral Print Anarkali Kurta with Pants and Dupatta",
         "price": 1500,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "900"
       }, {
@@ -999,6 +1048,7 @@
         "nameCls": "Floral Print Crew-Neck T-Shirt",
         "price": 209,
         "orginal_price": 349,
+        "category":"t-shirt",
         "discount": 40,
         "offer_price": "175"
       }, {
@@ -1008,6 +1058,7 @@
         "nameCls": "Floral Print Square-Neck Peplum Top",
         "price": 675,
         "orginal_price": 1499,
+        "category":"top",
         "discount": 55,
         "offer_price": "405"
       }, {
@@ -1017,6 +1068,7 @@
         "nameCls": "Flat-Front Straight Trousers",
         "price": 800,
         "orginal_price": 1999,
+        "category":"trouser",
         "discount": 60,
         "offer_price": "799"
       }, {
@@ -1026,6 +1078,7 @@
         "nameCls": "Floral Print Flared Kurta Set",
         "price": 1449,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 42,
         "offer_price": "869"
       }, {
@@ -1035,6 +1088,7 @@
         "nameCls": "Leaf Print Straight Kurta",
         "price": 305,
         "orginal_price": 599,
+        "category":"kurta",
         "discount": 49,
         "offer_price": "300"
       }, {
@@ -1044,6 +1098,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 1058,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 54,
         "offer_price": "635"
       }, {
@@ -1053,6 +1108,7 @@
         "nameCls": "Leaf Print Flared Kurta",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -1062,6 +1118,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 899,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 55,
         "offer_price": "539"
       }, {
@@ -1071,6 +1128,7 @@
         "nameCls": "Embellished Flared Kurta",
         "price": 999,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "599"
       }, {
@@ -1080,6 +1138,7 @@
         "nameCls": "Floral Print Fit and Flare Dress",
         "price": 1183,
         "orginal_price": 2689,
+        "category":"flare",
         "discount": 56,
         "offer_price": "710"
       }, {
@@ -1089,6 +1148,7 @@
         "nameCls": "Floral Print Knitted Top & Pyjamas Set",
         "price": 585,
         "orginal_price": 1299,
+        "category":"top",
         "discount": 55,
         "offer_price": "585"
       }, {
@@ -1098,6 +1158,7 @@
         "nameCls": "Floral Anarkali Kurta Set",
         "price": 1720,
         "orginal_price": 3999,
+        "category":"kurta",
         "discount": 57,
         "offer_price": 1032
       }, {
@@ -1107,6 +1168,7 @@
         "nameCls": "Floral Print Flared Kurta Suit Set",
         "price": 960,
         "orginal_price": 3999,
+        "category":"kurta",
         "discount": 76,
         "offer_price": "959"
       }, {
@@ -1116,6 +1178,7 @@
         "nameCls": "V-Neck Fit & Flare Dress",
         "price": 720,
         "orginal_price": 1499,
+        "category":"flare",
         "discount": 52,
         "offer_price": "432"
       }, {
@@ -1125,6 +1188,7 @@
         "nameCls": "Floral Print A-line Kurta",
         "price": 680,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 66,
         "offer_price": "500"
       }, {
@@ -1134,6 +1198,7 @@
         "nameCls": "Straight Kurta with Ethnic Motifs",
         "price": 1218,
         "orginal_price": 2899,
+        "category":"kurta",
         "discount": 58,
         "offer_price": "731"
       }, {
@@ -1143,6 +1208,7 @@
         "nameCls": "Printed Straight Kurta Set with Dupatta",
         "price": 1500,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "900"
       }, {
@@ -1152,6 +1218,7 @@
         "nameCls": "Floral Print V-Neck Top",
         "price": 656,
         "orginal_price": 1599,
+        "category":"top",
         "discount": 59,
         "offer_price": "400"
       }, {
@@ -1161,6 +1228,7 @@
         "nameCls": "Slim Fit Shirt with Curved Hemline",
         "price": 388,
         "orginal_price": 995,
+        "category":"shirt",
         "discount": 61,
         "offer_price": "249"
       }, {
@@ -1170,6 +1238,7 @@
         "nameCls": "Micro Print V-neck Top",
         "price": 860,
         "orginal_price": 1999,
+        "category":"top",
         "discount": 57,
         "offer_price": "516"
       }, {
@@ -1179,6 +1248,7 @@
         "nameCls": "High-Rise Skinny Jeans",
         "price": 960,
         "orginal_price": 2399,
+        "category":"jeans",
         "discount": 60,
         "offer_price": "600"
       }, {
@@ -1188,6 +1258,7 @@
         "nameCls": "Floral Print Notched Round Neck Straight Kurta",
         "price": 305,
         "orginal_price": 599,
+        "category":"kurta",
         "discount": 49,
         "offer_price": "300"
       }, {
@@ -1197,6 +1268,7 @@
         "nameCls": "Embellished Straight Kurta",
         "price": 549,
         "orginal_price": 1299,
+        "category":"kurta",
         "discount": 58,
         "offer_price": "329"
       }, {
@@ -1206,6 +1278,7 @@
         "nameCls": "Floral Print Fit & Flare Dress",
         "price": 1195,
         "orginal_price": 2298,
+        "category":"flare",
         "discount": 48,
         "offer_price": "717"
       }, {
@@ -1215,6 +1288,7 @@
         "nameCls": "Pack of 2 Pleated Square-Neck Tops",
         "price": 490,
         "orginal_price": 999,
+        "category":"top",
         "discount": 51,
         "offer_price": "294"
       }, {
@@ -1224,6 +1298,7 @@
         "nameCls": "Stretch Churidar Leggings",
         "price": 283,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 29,
         "offer_price": "279"
       }, {
@@ -1233,6 +1308,7 @@
         "nameCls": "Novelty Top",
         "price": 390,
         "orginal_price": 999,
+        "category":"top",
         "discount": 61,
         "offer_price": "250"
       }, {
@@ -1242,6 +1318,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 899,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 55,
         "offer_price": "539"
       }, {
@@ -1251,6 +1328,7 @@
         "nameCls": "Printed Kurta Suit Set",
         "price": 1599,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 36,
         "offer_price": "959"
       }, {
@@ -1260,6 +1338,7 @@
         "nameCls": "Floral Print Straight Kurta Set with Dupatta",
         "price": 1349,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 46,
         "offer_price": "809"
       }, {
@@ -1269,6 +1348,7 @@
         "nameCls": "Colourblock Bra & Panty Set",
         "price": 163,
         "orginal_price": 1251,
+        "category":"bra and panty",
         "discount": 87,
         "offer_price": "163"
       }, {
@@ -1278,6 +1358,7 @@
         "nameCls": "Floral Print Straight Kurta Set",
         "price": 946,
         "orginal_price": 2199,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "568"
       }, {
@@ -1287,6 +1368,7 @@
         "nameCls": "Floral Print A-line Kurta",
         "price": 700,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 65,
         "offer_price": "500"
       }, {
@@ -1296,6 +1378,7 @@
         "nameCls": "Embroidered Round-Neck Flared Kurta",
         "price": 875,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 56,
         "offer_price": "525"
       }, {
@@ -1305,6 +1388,7 @@
         "nameCls": "Paisley Print Straight Kurta",
         "price": 800,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 60,
         "offer_price": "720"
       }, {
@@ -1314,6 +1398,7 @@
         "nameCls": "Embellished Flared Kurta Suit Set",
         "price": 1499,
         "orginal_price": 3499,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "899"
       }, {
@@ -1323,6 +1408,7 @@
         "nameCls": "Text Embroidered Hoodie",
         "price": 432,
         "orginal_price": 899,
+        "category":"hoodie",
         "discount": 52,
         "offer_price": "306"
       }, {
@@ -1332,6 +1418,7 @@
         "nameCls": "Floral Printed Straight Kurta Set",
         "price": 1499,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 40,
         "offer_price": "899"
       }, {
@@ -1341,6 +1428,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 779,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 61,
         "offer_price": "500"
       }, {
@@ -1350,6 +1438,7 @@
         "nameCls": "Floral Print Straight Kurta Set",
         "price": 1484,
         "orginal_price": 3298,
+        "category":"kurta",
         "discount": 55,
         "offer_price": 1253
       }, {
@@ -1359,6 +1448,7 @@
         "nameCls": "Embellished Straight Kurta Set",
         "price": 1299,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 57,
         "offer_price": 1298
       }, {
@@ -1368,6 +1458,7 @@
         "nameCls": "Printed Straight Kurta with Pant & Chiffon Dupatta Set",
         "price": 1452,
         "orginal_price": 3299,
+        "category":"kurta",
         "discount": 56,
         "offer_price": "871"
       }, {
@@ -1377,6 +1468,7 @@
         "nameCls": "Anarkali Kurta with Dupatta",
         "price": 999,
         "orginal_price": 3996,
+        "category":"kurta",
         "discount": 75,
         "offer_price": "998"
       }, {
@@ -1386,6 +1478,7 @@
         "nameCls": "Round-Neck Straight Kurta Suit Set",
         "price": 1500,
         "orginal_price": 2999,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "900"
       }, {
@@ -1395,6 +1488,7 @@
         "nameCls": "Embroidered Anarkali Kurta with Tie-Up",
         "price": 950,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 62,
         "offer_price": "625"
       }, {
@@ -1404,6 +1498,7 @@
         "nameCls": "Tie & Dye Crew-Neck Oversized T-shirt",
         "price": 518,
         "orginal_price": 1399,
+        "category":"t-shirt",
         "discount": 63,
         "offer_price": "350"
       }, {
@@ -1413,6 +1508,7 @@
         "nameCls": "Geometric Print Front-Open Shrug",
         "price": 700,
         "orginal_price": 1399,
+        "category":"shrug",
         "discount": 50,
         "offer_price": "602"
       }, {
@@ -1422,6 +1518,7 @@
         "nameCls": "Flared Kurta Set",
         "price": 1199,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 48,
         "offer_price": "719"
       }, {
@@ -1431,6 +1528,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 649,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 68,
         "offer_price": "500"
       }, {
@@ -1440,6 +1538,7 @@
         "nameCls": "Ankle-Length Leggings with Elasticated Waist",
         "price": 355,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 11,
         "offer_price": "319"
       }, {
@@ -1449,6 +1548,7 @@
         "nameCls": "Floral Print Flared Kurta",
         "price": 740,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 63,
         "offer_price": "500"
       }, {
@@ -1458,6 +1558,7 @@
         "nameCls": "Checked Nightwear Set",
         "price": 1200,
         "orginal_price": 2999,
+        "category":"nightwear",
         "discount": 60,
         "offer_price": 1200
       }, {
@@ -1467,6 +1568,7 @@
         "nameCls": "Leaf Print A-Line Kurta",
         "price": 620,
         "orginal_price": 2139,
+        "category":"kurta",
         "discount": 71,
         "offer_price": "535"
       }, {
@@ -1476,6 +1578,7 @@
         "nameCls": "Floral Print Shirt Dress with Tie-Up",
         "price": 1100,
         "orginal_price": 2499,
+        "category":"shirt",
         "discount": 56,
         "offer_price": "660"
       }, {
@@ -1485,6 +1588,7 @@
         "nameCls": "Floral Embroidered Straight Kurta",
         "price": 624,
         "orginal_price": 1599,
+        "category":"kurta",
         "discount": 61,
         "offer_price": "400"
       }, {
@@ -1494,6 +1598,7 @@
         "nameCls": "Solid Tummy & Thigh Shaper",
         "price": 206,
         "orginal_price": 349,
+        "category":"shaper",
         "discount": 41,
         "offer_price": "175"
       }, {
@@ -1503,6 +1608,7 @@
         "nameCls": "Ditsy Floral Print Fit & Flare Dress",
         "price": 999,
         "orginal_price": 3499,
+        "category":"flare",
         "discount": 71,
         "offer_price": "998"
       }, {
@@ -1512,6 +1618,7 @@
         "nameCls": "Floral Print Round-Neck Straight Kurta",
         "price": 599,
         "orginal_price": 1498,
+        "category":"kurta",
         "discount": 60,
         "offer_price": "539"
       }, {
@@ -1521,6 +1628,7 @@
         "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
         "price": 490,
         "orginal_price": 1399,
+        "category":"t-shirt",
         "discount": 65,
         "offer_price": "350"
       }, {
@@ -1530,6 +1638,7 @@
         "nameCls": "Floral Printed Straight Kurta Set",
         "price": 1295,
         "orginal_price": 3699,
+        "category":"kurta",
         "discount": 65,
         "offer_price": 1294
       }, {
@@ -1539,6 +1648,7 @@
         "nameCls": "High-Rise Stretch Pants",
         "price": 400,
         "orginal_price": 999,
+        "category":"pants",
         "discount": 60,
         "offer_price": "340"
       }, {
@@ -1548,6 +1658,7 @@
         "nameCls": "Ankle-Length Leggings with Elasticated Waist",
         "price": 355,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 11,
         "offer_price": "319"
       }, {
@@ -1557,6 +1668,7 @@
         "nameCls": "Printed Crew-Neck Crop Top",
         "price": 249,
         "orginal_price": 1999,
+        "category":"top",
         "discount": 88,
         "offer_price": "249"
       }, {
@@ -1566,6 +1678,7 @@
         "nameCls": "Paisley Print Straight Kurta",
         "price": 299,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 85,
         "offer_price": "299"
       }, {
@@ -1575,6 +1688,7 @@
         "nameCls": "Indian Kurta Set",
         "price": 889,
         "orginal_price": 4039,
+        "category":"kurta",
         "discount": 78,
         "offer_price": "888"
       }, {
@@ -1584,6 +1698,7 @@
         "nameCls": "Polka-Dot Print Tailored Fit Peplum Top",
         "price": 585,
         "orginal_price": 1299,
+        "category":"top",
         "discount": 55,
         "offer_price": "351"
       }, {
@@ -1593,6 +1708,7 @@
         "nameCls": "Printed Flared Kurta with Mandarin Collar",
         "price": 851,
         "orginal_price": 1799,
+        "category":"kurta",
         "discount": 53,
         "offer_price": "511"
       }, {
@@ -1602,6 +1718,7 @@
         "nameCls": "Solid Straight Kurta Set",
         "price": 1250,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 50,
         "offer_price": "750"
       }, {
@@ -1611,6 +1728,7 @@
         "nameCls": "Printed Nightgown with Crop Top",
         "price": 479,
         "orginal_price": 799,
+        "category":"top",
         "discount": 40,
         "offer_price": "479"
       }, {
@@ -1620,6 +1738,7 @@
         "nameCls": "Floral Print Flared Kurta Suit Set",
         "price": 1499,
         "orginal_price": 3699,
+        "category":"kurta",
         "discount": 59,
         "offer_price": "925"
       }, {
@@ -1629,6 +1748,7 @@
         "nameCls": "Floral Flared Kurta",
         "price": 880,
         "orginal_price": 1999,
+        "category":"kurta",
         "discount": 56,
         "offer_price": "528"
       }, {
@@ -1638,6 +1758,7 @@
         "nameCls": "Textured Straight Fit Trousers",
         "price": 632,
         "orginal_price": 1149,
+        "category":"trouser",
         "discount": 45,
         "offer_price": "379"
       }, {
@@ -1647,6 +1768,7 @@
         "nameCls": "Embroidered Flared Kurta Set",
         "price": 900,
         "orginal_price": 2499,
+        "category":"kurta",
         "discount": 64,
         "offer_price": "625"
       }, {
@@ -1656,6 +1778,7 @@
         "nameCls": "Floral Print Anarkali Kurta with Dupatta",
         "price": 1199,
         "orginal_price": 2699,
+        "category":"kurta",
         "discount": 56,
         "offer_price": "719"
       }, {
@@ -1665,6 +1788,7 @@
         "nameCls": "Pack of 6 Floral Print Seamless Panties",
         "price": 338,
         "orginal_price": 1777,
+        "category":"bra and panty",
         "discount": 81,
         "offer_price": "338"
       }, {
@@ -1674,6 +1798,7 @@
         "nameCls": "Mid-Rise Skinny Fit Jeans",
         "price": 639,
         "orginal_price": 799,
+        "category":"jeans",
         "discount": 20,
         "offer_price": "638"
       }, {
@@ -1683,6 +1808,7 @@
         "nameCls": "Floral Embroidered Straight Kurta Set",
         "price": 999,
         "orginal_price": 2299,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "599"
       }, {
@@ -1692,6 +1818,7 @@
         "nameCls": "Leaf Flared Kurta",
         "price": 749,
         "orginal_price": 1749,
+        "category":"kurta",
         "discount": 57,
         "offer_price": "449"
       }, {
@@ -1701,6 +1828,7 @@
         "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
         "price": 432,
         "orginal_price": 1199,
+        "category":"t-shirt",
         "discount": 64,
         "offer_price": "300"
       }, {
@@ -1710,6 +1838,7 @@
         "nameCls": "Floral Print Round-Neck Top",
         "price": 249,
         "orginal_price": 1999,
+        "category":"top",
         "discount": 88,
         "offer_price": "249"
       }, {
@@ -1719,6 +1848,7 @@
         "nameCls": "Indian Straight Kurta Set",
         "price": 2214,
         "orginal_price": 5399,
+        "category":"kurta",
         "discount": 59,
         "offer_price": 1350
       }, {
@@ -1728,6 +1858,7 @@
         "nameCls": "Tie & Dye Anarkali Kurta Suit Set",
         "price": 2561,
         "orginal_price": 5449,
+        "category":"kurta",
         "discount": 53,
         "offer_price": 1537
       }, {
@@ -1737,6 +1868,7 @@
         "nameCls": "Bandhani Print & Mirror Embroidered Straight Kurta",
         "price": 912,
         "orginal_price": 2399,
+        "category":"kurta",
         "discount": 62,
         "offer_price": "600"
       }, {
@@ -1746,6 +1878,7 @@
         "nameCls": "Banarasi Silk Kanjivaram Traditional Saree",
         "price": 1260,
         "orginal_price": 2999,
+        "category":"saree",
         "discount": 58,
         "offer_price": 1020
       }, {
@@ -1755,6 +1888,7 @@
         "nameCls": "Ankle-Length Leggings with Elasticated Waist",
         "price": 355,
         "orginal_price": 399,
+        "category":"leggings",
         "discount": 11,
         "offer_price": "319"
       }, {
@@ -1764,561 +1898,915 @@
         "nameCls": "Lightly Washed Distressed Straight Leg Jeans",
         "price": 1999,
         "orginal_price": "",
+        "category":"jeans",
         "discount": "",
         "offer_price": 1999
       }],
-       "kids":[
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
-          "brand": "PERFORMAX",
-          "nameCls": "Fastdry Active Essential Track Pants",
-          "price": 419,
-          "orginal_price": 599,
-          "discount": 30,
-          "category":"pants",
-          "offer_price": 300
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220910/7RSd/631bb1a2aeb269dbb380be2a/lee_cooper_denim_blue_lightly_washed_slim_fit_jeans.jpg",
-          "brand": "Lee Cooper",
-          "nameCls": "Lightly Washed Slim Fit Jeans",
-          "price": 931,
-          "orginal_price": 1899,
-          "discount": 51,
-          "category":"jeans",
-          "offer_price": 760
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Full Sleeves Slim Fit Classic Shirt",
-          "price": 610,
-          "orginal_price": 1849,
-          "discount": 67,
-          "category":"shirt",
-          "offer_price": 481
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/h53/h36/14876612362270/dnmx_navy_blue_mid-rise_fitted_jeans.jpg",
-          "brand": "DNMX",
-          "nameCls": "Mid-Rise Fitted Jeans",
-          "price": 639,
-          "orginal_price": 799,
-          "discount": 20,
-          "category":"jeans",
-          "offer_price": 639
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Striped Slim Fit Shirt",
-          "price": 800,
-          "orginal_price": 2499,
-          "discount": 68,
-          "category":"shirt",
-          "offer_price": 650
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220511/irm1/627b43c6f997dd03e2a557c4/bullmer_multicoloured_pack_of_3_graphic_print_crew-neck_t-shirts.jpg",
-          "brand": "Bullmer",
-          "nameCls": "Pack of 3 Graphic Print Crew-Neck T-shirts",
-          "price": 525,
-          "orginal_price": 1499,
-          "discount": 65,
-          "category":"t-shirt",
-          "offer_price": 390
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
-          "brand": "EYEBOGLER",
-          "nameCls": "Colour-Blocked Polo T-shirt",
-          "price": 403,
-          "orginal_price": 1299,
-          "discount": 69,
-          "category":"t-shirt",
-          "offer_price": 338
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17bb9/the_indian_garage_co_blue_washed_slim_fit_jeans.jpg",
-          "brand": "The Indian Garage Co",
-          "nameCls": "Washed Slim Fit Jeans",
-          "price": 840,
-          "orginal_price": 1999,
-          "discount": 58,
-          "category":"jeans",
-          "offer_price": 780
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221102/B9e1/6362488df997ddfdbd5105bf/john_players_jeans_olive_green_flat-front_cargo_jeans.jpg",
-          "brand": "JOHN PLAYERS JEANS",
-          "nameCls": "Flat-Front Cargo Jeans",
-          "price": 1400,
-          "orginal_price": 2799,
-          "discount": 50,
-          "category":"jeans",
-          "offer_price": 1260
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230102/wJfs/63b2fe3eaeb269659c1e09e8/dennislingo_premium_attire_green_full_sleeves_slim_fit_shirt.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Full Sleeves Slim Fit Shirt",
-          "price": 610,
-          "orginal_price": 1849,
-          "discount": 67,
-          "category":"shirt",
-          "offer_price": 481
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220606/vlEj/629e1a92aeb26921af119cb8/bare__straight_track_pants_with_drawstring_waist.jpg",
-          "brand": "BARE",
-          "nameCls": "Straight Track Pants with Drawstring Waist",
-          "price": 269,
-          "orginal_price": 549,
-          "discount": 51,
-          "category":"pants",
-          "offer_price": 220
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220513/uxVC/627e237cf997dd03e2b9b21b/the_bear_house_grey_checked_slim_fit_shirt_with_patch_pocket.jpg",
-          "brand": "THE BEAR HOUSE",
-          "nameCls": "Checked Slim Fit Shirt with Patch Pocket",
-          "price": 1372,
-          "orginal_price": 2495,
-          "discount": 45,
-          "category":"shirt",
-          "offer_price": 837
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/dennislingo_premium_attire_blue_checked_slim_fit_shirt.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Checked Slim Fit Shirt",
-          "price": 800,
-          "orginal_price": 2499,
-          "discount": 68,
-          "category":"shirt",
-          "offer_price": 650
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221117/CXZZ/6375d74faeb269659c97fe85/dennislingo_premium_attire_black__slim_fit_shirt_with_spread_collar.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Slim Fit Shirt with Spread Collar",
-          "price": 610,
-          "orginal_price": 1849,
-          "discount": 67,
-          "category":"shirt",
-          "offer_price": 481
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220818/lSh7/62fde20caeb269176182b7d0/ivoc_olive_green_flat_front_slim_fit_cargo_pants.jpg",
-          "brand": "iVOC",
-          "nameCls": "Flat Front Slim Fit Cargo Pants",
-          "price": 1367,
-          "orginal_price": 2399,
-          "discount": 43,
-          "category":"pants",
-          "offer_price": 834
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220905/6Nq1/63163668aeb269dbb36cfe23/louis_philippe_navy_flat-front_trousers_with_insert_pockets.jpg",
-          "brand": "LOUIS PHILIPPE",
-          "nameCls": "Flat-Front Trousers with Insert Pockets",
-          "price": 1689,
-          "orginal_price": 2599,
-          "discount": 35,
-          "category":"trusers",
-          "offer_price": 1233
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/hf8/hae/14876749791262/dnmx_blue_lightly_washed_fitted_jeans.jpg",
-          "brand": "DNMX",
-          "nameCls": "Lightly Washed Fitted Jeans",
-          "price": 639,
-          "orginal_price": 799,
-          "discount": 20,
-          "category":"jeans",
-          "offer_price": 639
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220714/NG3H/62d0359baeb26921af7a7dc0/netplay_navy_blue_flat-front_trousers_with_insert_pockets.jpg",
-          "brand": "NETPLAY",
-          "nameCls": "Flat-Front Trousers with Insert Pockets",
-          "price": 824,
-          "orginal_price": 1499,
-          "discount": 5,
-          "category":"trusers",
-          "offer_price": 750
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221228/eZQj/63ac6af6f997ddfdbdffa92f/dnmx_grey_lightly_washed_skinny_fit_jeans.jpg",
-          "brand": "DNMX",
-          "nameCls": "Lightly Washed Skinny Fit Jeans",
-          "price": 1099,
-          "orginal_price": 1999,
-          "discount": 45,
-          "category":"jeans",
-          "offer_price": 1000
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220513/sNUJ/627e1e7af997dd03e2b93cf7/the_bear_house_white_slim_fit_shirt_with_patch_pocket.jpg",
-          "brand": "THE BEAR HOUSE",
-          "nameCls": "Slim Fit Shirt with Patch Pocket",
-          "price": 1297,
-          "orginal_price": 2495,
-          "discount": 48,
-          "category":"shirt",
-          "offer_price": 791
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/h79/h02/10267307016222/netplay_black_slim_fit_mid-rise_chinos.jpg",
-          "brand": "NETPLAY",
-          "nameCls": "Slim Fit Mid-Rise Chinos",
-          "price": 799,
-          "orginal_price": 999,
-          "discount": 20,
-          "category":"chinos",
-          "offer_price": 799
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/h86/h8f/14876616491038/dnmx_grey_lightly_washed_fitted_jeans.jpg",
-          "brand": "DNMX",
-          "nameCls": "Lightly Washed Fitted Jeans",
-          "price": 639,
-          "orginal_price": 799,
-          "discount": 20,
-          "category":"jeans",
-          "offer_price": 639
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220819/Qm9w/62fe856aaeb269176183efe0/ivoc_black_slim_fit_shirt_with_patch_pocket.jpg",
-          "brand": "iVOC",
-          "nameCls": "Slim Fit Shirt with Patch Pocket",
-          "price": 671,
-          "orginal_price": 1199,
-          "discount": 44,
-          "category":"shirt",
-          "offer_price": 409
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220623/g3gy/62b3819faeb26921af423d20/ausk_navy_striped_crew-neck_t-shirt.jpg",
-          "brand": "AUSK",
-          "nameCls": "Striped Crew-Neck T-shirt",
-          "price": 410,
-          "orginal_price": 999,
-          "discount": 59,
-          "category":"t-shirt",
-          "offer_price": 260
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220915/6Nrs/63222b65aeb269dbb38c0845/teamspirit_olive_green_geometric_print_flat-front_shorts.jpg",
-          "brand": "Teamspirit",
-          "nameCls": "Geometric Print Flat-Front Shorts",
-          "price": 400,
-          "orginal_price": 799,
-          "discount": 50,
-          "category":"shorts",
-          "offer_price": 360
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221118/0ScG/637727eef997ddfdbd82d944/lee_cooper_olive_shirt_with_flap_pockets.jpg",
-          "brand": "Lee Cooper",
-          "nameCls": "Shirt with Flap Pockets",
-          "price": 980,
-          "orginal_price": 1999,
-          "discount": 51,
-          "category":"shirt",
-          "offer_price": 800
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20211023/6Qlf/617313e1aeb2690110a3e315/the_indian_garage_co_white_slim_fit_striped_shirt_with_patch_pocket.jpg",
-          "brand": "The Indian Garage Co",
-          "nameCls": "Slim Fit Striped Shirt with Patch Pocket",
-          "price": 627,
-          "orginal_price": 1649,
-          "discount": 62,
-          "category":"shirt",
-          "offer_price": 561
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220301/YmmO/621d2d35aeb26921afbc852d/lee_cooper_navy_blue_crew-neck_t-shirt_with_zip_placket.jpg",
-          "brand": "Lee Cooper",
-          "nameCls": "Crew-Neck T-shirt with Zip Placket",
-          "price": 637,
-          "orginal_price": 1299,
-          "discount": 51,
-          "category":"t-shirt",
-          "offer_price": 520
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220121/XNDG/61ea64b3aeb2695cdd24fb24/gespo_black_shirt_with_curved_hemline.jpg",
-          "brand": "GESPO",
-          "nameCls": "Shirt with Curved Hemline",
-          "price": 432,
-          "orginal_price": 899,
-          "discount": 52,
-          "category":"shirt",
-          "offer_price": 264
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220519/frf1/62861152aeb26921afa7c19c/lee_cooper_black_mid-rise_tapered_fit_jeans.jpg",
-          "brand": "Lee Cooper",
-          "nameCls": "Mid-Rise Tapered Fit Jeans",
-          "price": 980,
-          "orginal_price": 1999,
-          "discount": 51,
-          "category":"jeans",
-          "offer_price": 800
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220913/rv14/631f9929f997dd1f8df80cb0/stellers_grey_polo_t-shirt_with_brand_print.jpg",
-          "brand": "Stellers",
-          "nameCls": "Polo T-shirt with Brand Print",
-          "price": 700,
-          "orginal_price": 1999,
-          "discount": 65,
-          "category":"t-shirt",
-          "offer_price": 520
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221102/iYbj/63620e90aeb269659c6abb9d/john_players_jeans_jet_black_flat-front_cargo_jeans.jpg",
-          "brand": "JOHN PLAYERS JEANS",
-          "nameCls": "Flat-Front Cargo Jeans",
-          "price": 1400,
-          "orginal_price": 2799,
-          "discount": 50,
-          "category":"jeans",
-          "offer_price": 1260
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230113/B8Gr/63c0fa88aeb269c651de0113/bullmer_peach_striped_henley_t-shirt.jpg",
-          "brand": "Bullmer",
-          "nameCls": "Striped Henley T-shirt",
-          "price": 440,
-          "orginal_price": 999,
-          "discount": 56,
-          "category":"t-shirt",
-          "offer_price": 268
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/the_indian_garage_co_blue_lightly_washed_slim_fit_jeans.jpg",
-          "brand": "The Indian Garage Co",
-          "nameCls": "Lightly Washed Slim Fit Jeans",
-          "price": 840,
-          "orginal_price": 1999,
-          "discount": 58,
-          "category":"jeans",
-          "offer_price": 700
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/hb1/h0e/14876617048094/dnmx_blue_mid-rise_skinny_jeans.jpg",
-          "brand": "DNMX",
-          "nameCls": "Mid-Rise Skinny Jeans",
-          "price": 639,
-          "orginal_price": 799,
-          "discount": 20,
-          "category":"jeans",
-          "offer_price": 639
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/ivoc_black_solid_jogger_jeans_with_drawstring.jpg",
-          "brand": "iVOC",
-          "nameCls": "Solid Jogger Jeans with Drawstring",
-          "price": 1025,
-          "orginal_price": 1799,
-          "discount": 43,
-          "category":"jogger",
-          "offer_price": 625
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220802/negp/62e945daf997dd03e21a4326/dnmx_jet_black_slim_fit_cotton_henley_t-shirt.jpg",
-          "brand": "DNMX",
-          "nameCls": "Slim Fit Cotton Henley T-shirt",
-          "price": 480,
-          "orginal_price": 999,
-          "discount": 52,
-          "category":"t-shirt",
-          "offer_price": 340
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220606/bl7H/629e125eaeb26921af108c21/bare_grey_knit_shorts_with_contrast_taping.jpg",
-          "brand": "BARE",
-          "nameCls": "Knit Shorts with Contrast Taping",
-          "price": 192,
-          "orginal_price": 399,
-          "discount": 52,
-          "category":"shorts",
-          "offer_price": 136
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220927/wyJe/6332e0a7f997dd1f8d1fd3f9/performax_grey_fastdry_running_active_essential_shorts.jpg",
-          "brand": "PERFORMAX",
-          "nameCls": "Fastdry Running Active Essential Shorts",
-          "price": 419,
-          "orginal_price": 599,
-          "discount": 30,
-          "category":"shorts",
-          "offer_price": 300
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230125/k7SL/63d0efacf997dd708e201786/performax_dark_grey_fastdry_active_essential_track_pants.jpg",
-          "brand": "PERFORMAX",
-          "nameCls": "Fastdry Active Essential Track Pants",
-          "price": 419,
-          "orginal_price": 599,
-          "discount": 30,
-          "category":"pants",
-          "offer_price": 300
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220317/upsH/62324f6daeb26921afdf8b19/the_dry_state_blue_solid_crew-neck_t-shirt.jpg",
-          "brand": "The Dry State",
-          "nameCls": "Solid Crew-Neck T-shirt",
-          "price": 455,
-          "orginal_price": 1299,
-          "discount": 65,
-          "category":"t-shirt",
-          "offer_price": 338
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220908/XRfc/631910bbf997dd1f8dec9a54/ausk_white_striped_crew-neck_t-shirt.jpg",
-          "brand": "AUSK",
-          "nameCls": "Striped Crew-Neck T-shirt",
-          "price": 400,
-          "orginal_price": 999,
-          "discount": 60,
-          "category":"t-shirt",
-          "offer_price": 260
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220818/22eZ/62fde1bdf997dd394c018b73/ivoc_olive_green_slim_fit_shirt_with_flap_pockets.jpg",
-          "brand": "iVOC",
-          "nameCls": "Slim Fit Shirt with Flap Pockets",
-          "price": 975,
-          "orginal_price": 2499,
-          "discount": 61,
-          "category":"shirt",
-          "offer_price": 650
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220920/8H9B/6328c6a9f997dd1f8d08d18c/teamspirit_green_popcorn_crew-neck_t-shirt.jpg",
-          "brand": "Teamspirit",
-          "nameCls": "Popcorn Crew-Neck T-Shirt",
-          "price": 382,
-          "orginal_price": 449,
-          "discount": 15,
-          "category":"t-shirt",
-          "offer_price": 359
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220511/H3sZ/627b480caeb26921af64d4d4/bullmer_black_stripes_regular-fit_polo_t-shirt.jpg",
-          "brand": "Bullmer",
-          "nameCls": "Stripes Regular-fit Polo T-shirt",
-          "price": 440,
-          "orginal_price": 999,
-          "discount": 56,
-          "category":"t-shirt",
-          "offer_price": 268
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20230207/Dc1L/63e27bc2aeb269c65116a7db/lee_cooper_indigo_button-down_hoodie_with_placement_brand_print.jpg",
-          "brand": "Lee Cooper",
-          "nameCls": "Button-Down Hoodie with Placement Brand Print",
-          "price": 1127,
-          "orginal_price": 2299,
-          "discount": 51,
-          "category":"hoodie",
-          "offer_price": 920
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220722/qPtt/62dab922aeb26921af8fdf22/netplay_grey_checked_slim_fit_shirt.jpg",
-          "brand": "NETPLAY",
-          "nameCls": "Checked Slim Fit Shirt",
-          "price": 624,
-          "orginal_price": 1299,
-          "discount": 52,
-          "category":"shirt",
-          "offer_price": 442
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20220511/MU3P/627b4a8aaeb26921af650b1d/bullmer_maroon_striped_polo_t-shirt.jpg",
-          "brand": "Bullmer",
-          "nameCls": "Striped Polo T-shirt",
-          "price": 350,
-          "orginal_price": 999,
-          "discount": 65,
-          "category":"t-shirt",
-          "offer_price": 260
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20221109/c7a3/636b8e16aeb269659c7f7c15/dennislingo_premium_attire_white_checked_slim_fit_shirt.jpg",
-          "brand": "DENNISLINGO PREMIUM ATTIRE",
-          "nameCls": "Checked Slim Fit Shirt",
-          "price": 800,
-          "orginal_price": 2499,
-          "discount": 68,
-          "category":"shirt",
-          "offer_price": 650
-        },
-        {
-          "FIELD1": "",
-          "images": "https://assets.ajio.com/medias/sys_master/root/20200821/bhEl/5f3fec367cdb8ca2cf9f00b2/the_indian_garage_co_maroon_checked_slim_fit_shirt_with_patch_pocket.jpg",
-          "brand": "The Indian Garage Co",
-          "nameCls": "Checked Slim Fit Shirt with Patch Pocket",
-          "price": 700,
-          "orginal_price": 1749,
-          "discount": 60,
-          "category":"shirt",
-          "offer_price": 595
-        }   
-       ]
+
+
+
+      
+       "kids":[{
+        "rilrtl-products-list__link href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230207/2R8b/63e21efaf997dd708e3fa077/niren_enterprise_black_embellished_round-neck_fit_and_flare_dress.jpg",
+        "brand": "NIREN ENTERPRISE",
+        "nameCls": "Embellished Round-Neck Fit and Flare Dress",
+        "price": 600,
+        "orginal_price": 1999,
+        "category":"flare",
+        "discount": 70,
+        "offer_price": "560"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-typographic-shorts/p/464168393_multi",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230226/FKMH/63fa6661f997dde6f4c93fd4/trampoline_multicolor_pack_of_5_typographic_shorts.jpg",
+        "brand": "Trampoline",
+        "nameCls": "Pack of 5 Typographic Shorts",
+        "price": 425,
+        "orginal_price": 945,
+        "category":"shorts",
+        "discount": 55,
+        "offer_price": "255"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-graphic-print-round-neck-t-shirt/p/441292922_white",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221230/ICjx/63aed8dfaeb269659c18ea82/pink_n_blue__white_graphic_print_round-neck_t-shirt.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Graphic Print Round-Neck T-Shirt",
+        "price": 83,
+        "orginal_price": 139,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "83"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-typographic-print-round-neck-t-shirt/p/441292921_mediumpink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221230/z1bW/63aecad6aeb269659c189e4d/pink_n_blue_pink_typographic_print_round-neck_t-shirt.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Typographic Print Round-Neck T-Shirt",
+        "price": 83,
+        "orginal_price": 139,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "83"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/antix-printed-t-shirt-with-shorts/p/420277975_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230220/C0wX/63f3a1d1f997dde6f4b505db/antix_navy_blue_printed_t-shirt_with_shorts.jpg",
+        "brand": "ANTIX",
+        "nameCls": "Printed T-Shirt with Shorts",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"shorts",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/bella-moda-embroidered-tiered-dress-with-tie-up/p/465639257_rust",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230121/MDen/63cafd87f997dd708e17b2e7/bella_moda_rust_embroidered_tiered_dress_with_tie-up.jpg",
+        "brand": "Bella moda",
+        "nameCls": "Embroidered Tiered Dress with Tie-Up",
+        "price": 697,
+        "orginal_price": 2247,
+        "category":"tiered dress",
+        "discount": 69,
+        "offer_price": "629"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/antix-printed-t-shirt-with-shorts/p/420277977_lgtgreen",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230220/ym5c/63f39c4ff997dde6f4b44fcd/antix_green_printed_t-shirt_with_shorts.jpg",
+        "brand": "ANTIX",
+        "nameCls": "Printed T-Shirt with Shorts",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-polka-dot-print-fit--flare-dress/p/420323027_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/QNm6/63cff026f997dd708e1ec488/kidderz_yellow_polka-dot_print_fit_26_flare_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Polka-Dot Print Fit & Flare Dress",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "275"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-striped-hooded-t-shirt/p/420324051_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230113/etNH/63c13e6aaeb269c651df056e/tigertrail_yellow_striped_hooded_t-shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Striped Hooded T-Shirt",
+        "price": 239,
+        "orginal_price": 399,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "200"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/r-k-maniyar-striped-straight-kurta-set/p/465552764_pink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230110/DIZg/63bd2c27f997dd708efa2a24/r_k_maniyar_pink_striped_straight_kurta_set.jpg",
+        "brand": "R K MANIYAR",
+        "nameCls": "Striped Straight Kurta Set",
+        "price": 540,
+        "orginal_price": 2999,
+        "category":"kurta",
+        "discount": 82,
+        "offer_price": "539"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/dj--c-typographic-print-crew-neck-t-shirt/p/441278439_black",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230113/wrZg/63c13e05aeb269c651df03d8/dj_26_c_black_typographic_print_crew-neck_t-shirt.jpg",
+        "brand": "DJ & C",
+        "nameCls": "Typographic Print Crew-Neck T-Shirt",
+        "price": 152,
+        "orginal_price": 169,
+        "category":"t-shirt",
+        "discount": 10,
+        "offer_price": "152"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-embellished-lehenga-choli-with-dupatta-set/p/465540998_magenta",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230103/Jpgh/63b34a57f997ddfdbd0b60d7/pspeaches_magenta_embellished_lehenga_choli_with_dupatta_set.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Embellished Lehenga Choli with Dupatta Set",
+        "price": 2088,
+        "orginal_price": 6525,
+        "category":"lehenga choli",
+        "discount": 68,
+        "offer_price": 1631
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-fit--flare-dress/p/420323035_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/uitt/63cfb34ff997dd708e1e7646/kidderz_pink_printed_fit_26_flare_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Fit & Flare Dress",
+        "price": 269,
+        "orginal_price": 449,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "225"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/codez-typographic-print-crew-neck-t-shirt/p/465607458_teal",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230116/MA3H/63c5668ef997dd708e098020/codez_teal_typographic_print_crew-neck_t-shirt.jpg",
+        "brand": "CODEZ",
+        "nameCls": "Typographic Print Crew-Neck T-Shirt",
+        "price": 250,
+        "orginal_price": 999,
+        "category":"t-shirt",
+        "discount": 75,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-cotton-shirt/p/420174221_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230213/mgT2/63ea4995aeb26924e36bae71/tigertrail_multicoloured_checked_cotton_shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Cotton Shirt",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/ed-a-mamma-sustainable-lurex-embroidered-top/p/469066178_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20211207/txWi/61ae64d1aeb2690110f7012c/ed-a-mamma_blue_sustainable_lurex_embroidered_top.jpg",
+        "brand": "Ed-A-Mamma",
+        "nameCls": "Sustainable Lurex Embroidered Top",
+        "price": 300,
+        "orginal_price": 999,
+        "category":"top",
+        "discount": 70,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-floral-print-gathered-neck-top/p/420323057_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/ztFX/63cff897aeb269c651f6d920/kidderz_navy_blue_floral_print_gathered-neck_top.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Floral Print Gathered-Neck Top",
+        "price": 179,
+        "orginal_price": 299,
+        "category":"top",
+        "discount": 40,
+        "offer_price": "150"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-printed-cotton-shirt/p/420324030_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230208/XBan/63e37b98f997dde6f495cee1/tigertrail_yellow_printed_cotton_shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Printed Cotton Shirt",
+        "price": 239,
+        "orginal_price": 399,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "200"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-floral-print-kurta-set-with-dupatta-/p/465624332_magenta",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230118/4oiL/63c7b0f1f997dd708e10d1ae/pspeaches_magenta_floral_print_kurta_set_with_dupatta_.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Floral Print Kurta Set with Dupatta",
+        "price": 1279,
+        "orginal_price": 3997,
+        "category":"kurta",
+        "discount": 68,
+        "offer_price": "999"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-floral-print-fit--flare-dress/p/420323026_lgtpink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230209/oJA6/63e51089f997dde6f49b0da6/kidderz_pink_floral_print_fit_26_flare_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Floral Print Fit & Flare Dress",
+        "price": 359,
+        "orginal_price": 599,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/antix-peppa-pig-print-fit--flare-dress-with-briefs/p/420326380_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230213/MlPZ/63ea607eaeb26924e36c2031/antix_navy_blue_26_pink_peppa_pig_print_fit_26_flare_dress_with_briefs.jpg",
+        "brand": "ANTIX",
+        "nameCls": "Peppa Pig Print Fit & Flare Dress with Briefs",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-minnie-mouse-print-round-neck-t-shirt/p/420327885_pink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/w2Cg/63cfb436aeb269c651f66a27/kidderz_pink_minnie_mouse_print_round-neck_t-shirt.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Minnie Mouse Print Round-Neck T-Shirt",
+        "price": 179,
+        "orginal_price": 299,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "150"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-mid-wash-straight-fit-jeans/p/420280702_black",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230209/9mwP/63e50eafaeb26924e364e53b/tigertrail_black_mid-wash_straight_fit_jeans.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Mid-Wash Straight Fit Jeans",
+        "price": 359,
+        "orginal_price": 599,
+        "category":"jeans",
+        "discount": 40,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-set-of-2-graphic-print-t-shirt--shorts-set/p/463226564_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230226/1MzX/63fa9b07aeb26924e3913be8/trampoline_blue_26_yellow_set_of_2_graphic_print_t-shirt_26_shorts_set.jpg",
+        "brand": "Trampoline",
+        "nameCls": "Set of 2 Graphic Print T-shirt & Shorts Set",
+        "price": 475,
+        "orginal_price": 1079,
+        "category":"shorts",
+        "discount": 56,
+        "offer_price": "285"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/marzipan-floral-embroidered-round-neck-fit--flare-dress/p/420322927_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/KS4h/63cfede3f997dd708e1eb593/marzipan_navy_blue_floral_embroidered_round-neck_fit_26_flare_dress.jpg",
+        "brand": "MARZIPAN",
+        "nameCls": "Floral Embroidered Round-Neck Fit & Flare Dress",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "275"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-printed-shirt-with-spread-collar/p/420324134_peach",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230120/BVox/63ca78adf997dd708e15c9ba/tigertrail_peach_printed_shirt_with_spread_collar.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Printed Shirt with Spread Collar",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-fit--flare-dress/p/420323045_pink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/OScI/63cfb346aeb269c651f6673e/kidderz_pink_printed_fit_26_flare_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Fit & Flare Dress",
+        "price": 269,
+        "orginal_price": 449,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "225"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/marzipan-floral-embroidered-round-neck-fit--flare-dress/p/420322929_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/gvWM/63cff4cbf997dd708e1edf83/marzipan_yellow_floral_embroidered_round-neck_fit_26_flare_dress.jpg",
+        "brand": "MARZIPAN",
+        "nameCls": "Floral Embroidered Round-Neck Fit & Flare Dress",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "275"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-striped-culottes-with-tie-up/p/420174020_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220315/22A4/622faea6aeb26921afd8afa5/kidderz_multicoloured_striped_culottes_with_tie-up.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Striped Culottes with Tie-Up",
+        "price": 239,
+        "orginal_price": 399,
+        "category":"culotters",
+        "discount": 40,
+        "offer_price": "200"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-floral-print-gathered-neck-top/p/420323056_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230125/Uqtk/63d104cfaeb269c651f825eb/kidderz_pink_floral_print_gathered-neck_top.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Floral Print Gathered-Neck Top",
+        "price": 179,
+        "orginal_price": 299,
+        "category":"top",
+        "discount": 40,
+        "offer_price": "150"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-mid-rise-joggers-with-side-pockets/p/465526811_black",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221230/RGm8/63af0316f997ddfdbd05ecc5/jump_cuts_black_mid-rise_joggers_with_side_pockets.jpg",
+        "brand": "JUMP CUTS",
+        "nameCls": "Mid-Rise Joggers with Side Pockets",
+        "price": 432,
+        "orginal_price": 1599,
+        "category":"jogger",
+        "discount": 73,
+        "offer_price": "431"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/marzipan-floral-print-round-neck-tunic/p/420322880_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230220/kCpA/63f3a5cdf997dde6f4b54399/marzipan_blue_floral_print_round-neck_tunic.jpg",
+        "brand": "MARZIPAN",
+        "nameCls": "Floral Print Round-Neck Tunic",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"tunic",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-shirt-with-patch-pocket/p/420324031_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220127/JczW/61f2aca4aeb2695cdd324a5b/tigertrail_red_checked_shirt_with_patch_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Shirt with Patch Pocket",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/antix-paw-patrol-print-vest--shorts-set/p/420326324_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/kAdJ/63cffd3daeb269c651f6ef9e/antix_navy_blue_26_sky_blue_paw_patrol_print_vest_26_shorts_set.jpg",
+        "brand": "ANTIX",
+        "nameCls": "Paw Patrol Print Vest & Shorts Set",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"shorts",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-chick-pleated-one-shoulder-a-line-dress-/p/465717357_teal",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230206/HCAJ/63e139def997dd708e3c6385/pink_chick_teal_pleated_one-shoulder_a-line_dress_.jpg",
+        "brand": "PINK CHICK",
+        "nameCls": "Pleated One-Shoulder A-Line Dress",
+        "price": 1170,
+        "orginal_price": 1950,
+        "category":"line dress",
+        "discount": 40,
+        "offer_price": "995"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tior-printed-fit--flare-dress/p/464124847_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230113/VFt2/63c1189eaeb269c651de5da8/tior_blue_printed_fit_26_flare_dress.jpg",
+        "brand": "Tior",
+        "nameCls": "Printed Fit & Flare Dress",
+        "price": 600,
+        "orginal_price": 1499,
+        "category":"flare",
+        "discount": 60,
+        "offer_price": "375"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-superman-print-t-shirt--shorts/p/469455717_red",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230202/G4Dh/63db9146f997dd708e35477b/game_begins_red_26_navy_blue_superman_print_t-shirt_26_shorts.jpg",
+        "brand": "GAME BEGINS",
+        "nameCls": "Superman Print T-Shirt & Shorts",
+        "price": 292,
+        "orginal_price": 449,
+        "category":"shorts",
+        "discount": 35,
+        "offer_price": "265"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/bella-moda-embroidered-tiered-dress-with-neck-tie-up-/p/465647759_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230123/jhNN/63cec4d0aeb269c651f49086/bella_moda_navy_blue_embroidered_tiered_dress_with_neck_tie-up_.jpg",
+        "brand": "Bella moda",
+        "nameCls": "Embroidered Tiered Dress with Neck Tie-Up",
+        "price": 697,
+        "orginal_price": 2247,
+        "category":"tiered dress",
+        "discount": 69,
+        "offer_price": "629"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-striped-fit--flare-dress-with-belt/p/420327883_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/Ed86/63cfede9aeb269c651f6a134/kidderz_multicoloured_striped_fit_26_flare_dress_with_belt.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Striped Fit & Flare Dress with Belt",
+        "price": 359,
+        "orginal_price": 599,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-chick-pleated-a-line-dress-with-lettuce-hem/p/465717349_teal",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230207/gzov/63e19043aeb269c65113c9c0/pink_chick_teal_pleated_a-line_dress_with_lettuce_hem.jpg",
+        "brand": "PINK CHICK",
+        "nameCls": "Pleated A-Line Dress with Lettuce Hem",
+        "price": 1170,
+        "orginal_price": 1950,
+        "category":"line dress",
+        "discount": 40,
+        "offer_price": "995"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-mid-wash-straight-fit-jeans/p/420323984_darkblue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230217/TFsT/63ef9e13f997dde6f4ae44cf/tigertrail_blue_mid-wash_straight_fit_jeans.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Mid-Wash Straight Fit Jeans",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"jeans",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-printed-round-neck-t-shirt/p/441273595_tangerine",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230202/sCMC/63db9411aeb269c6510bfa82/pink_n_blue_tangerine_printed_round-neck_t-shirt.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Printed Round-Neck T-Shirt",
+        "price": 129,
+        "orginal_price": "",
+        "category":"t-shirt",
+        "discount": "",
+        "offer_price": "116"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-shirt-with-front-knot/p/420323055_coral",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/crBU/63cff9a2f997dd708e1efe9f/kidderz_pink_printed_shirt_with_front-knot.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Shirt with Front-Knot",
+        "price": 179,
+        "orginal_price": 299,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "150"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-printed-shirt-with-patch-pocket/p/420174216_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230208/lEBa/63e379c8aeb26924e35fbf93/tigertrail_blue_printed_shirt_with_patch_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Printed Shirt with Patch Pocket",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/bella-moda-embroidered-tiered-dress-with-tie-up/p/465639251_white",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230121/7LA7/63caff56f997dd708e17d19e/bella_moda_white_embroidered_tiered_dress_with_tie-up.jpg",
+        "brand": "Bella moda",
+        "nameCls": "Embroidered Tiered Dress with Tie-Up",
+        "price": 697,
+        "orginal_price": 2247,
+        "category":"tiered dress",
+        "discount": 69,
+        "offer_price": "629"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-striped-a-line-dress-with-applique/p/441270244_multicolour",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221230/1jQB/63aed630f997ddfdbd050563/pink_n_blue_multicoloured_striped_a-line_dress_with_applique.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Striped A-Line Dress with Applique",
+        "price": 269,
+        "orginal_price": 299,
+        "category":"line dress",
+        "discount": 10,
+        "offer_price": "269"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-cotton-shirt/p/420327198_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230214/xyrL/63eb633aaeb26924e36dc7b8/tigertrail_multicolor_checked_cotton_shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Cotton Shirt",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-2-printed-shorts--t-shirt-set/p/464170865_multi",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230226/H24q/63fa9b00aeb26924e3913b1d/trampoline_multicolored_pack_of_2_printed_shorts_26_t-shirt_set.jpg",
+        "brand": "Trampoline",
+        "nameCls": "Pack of 2 Printed Shorts & T-shirt Set",
+        "price": 475,
+        "orginal_price": 1079,
+        "category":"t-shirt",
+        "discount": 56,
+        "offer_price": "285"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-floral-print-lehenga--choli-set/p/465570947_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230109/a32U/63bbd26ff997dd708ef1df82/pspeaches_yellow_floral_print_lehenga_26_choli_set.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Floral Print Lehenga & Choli Set",
+        "price": 1553,
+        "orginal_price": 4854,
+        "category":"lehenga choli",
+        "discount": 68,
+        "offer_price": 1214
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-skinny-fit-jeans-with-applique-embroidery/p/420323079_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230220/oHvE/63f3840bf997dde6f4b2d1d3/kidderz_blue_skinny_fit_jeans_with_applique_embroidery.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Skinny Fit Jeans with Applique Embroidery",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"jeans",
+        "discount": 40,
+        "offer_price": "275"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-floral-woven-lehenga-choli-with-dupatta/p/465624322_green",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230118/aHJE/63c7b13caeb269c651e96c9f/pspeaches_green_floral_woven_lehenga_choli_with_dupatta.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Floral Woven Lehenga Choli with Dupatta",
+        "price": 1188,
+        "orginal_price": 3711,
+        "category":"lehenga choli",
+        "discount": 68,
+        "offer_price": "928"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/zalio-printed-t-shirt--dungaree-set/p/465545085_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230103/NltN/63b3ee24f997ddfdbd0ce811/zalio_blue_printed_t-shirt_26_dungaree_set.jpg",
+        "brand": "ZALIO",
+        "nameCls": "Printed T-Shirt & Dungaree Set",
+        "price": 637,
+        "orginal_price": 1099,
+        "category":"t-shirt",
+        "discount": 42,
+        "offer_price": "517"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-mandarin-collar-shirt-with-half-placket/p/441316719_olive",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220921/VxoH/632b431aaeb269dbb39d4447/wotnot_olive_mandarin_collar_shirt_with_half_placket.jpg",
+        "brand": "Wotnot",
+        "nameCls": "Mandarin Collar Shirt with Half Placket",
+        "price": 699,
+        "orginal_price": "",
+        "category":"shirt",
+        "discount": "",
+        "offer_price": "699"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-quilted-bombers-jacket/p/465509926_green",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221231/aAJn/63afa862f997ddfdbd076c3c/trampoline_green_26_blue_quilted_bombers_jacket.jpg",
+        "brand": "Trampoline",
+        "nameCls": "Quilted Bombers Jacket",
+        "price": 700,
+        "orginal_price": 1749,
+        "category":"jacket",
+        "discount": 60,
+        "offer_price": "437"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-floral-pattern-kurta-set-with-dupatta/p/465540891_peach",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230103/sbDo/63b350edaeb269659c1f28e6/pspeaches_peach_floral_pattern_kurta_set_with_dupatta.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Floral Pattern Kurta Set with Dupatta",
+        "price": 1351,
+        "orginal_price": 4222,
+        "category":"kurta",
+        "discount": 68,
+        "offer_price": 1056
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-solid-regular-fit-shorts/p/463180158_multi",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230226/9aGw/63fa9af7f997dde6f4c94403/trampoline_multicolor_solid__regular_fit__shorts.jpg",
+        "brand": "Trampoline",
+        "nameCls": "Solid  Regular Fit  Shorts",
+        "price": 396,
+        "orginal_price": 879,
+        "category":"shorts",
+        "discount": 55,
+        "offer_price": "238"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-printed-shirt-with-spread-collar/p/420324150_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230120/XkBq/63caa592aeb269c651ee7811/tigertrail_navy_blue_printed_shirt_with_spread_collar.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Printed Shirt with Spread Collar",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-floral-print-spread-collar-shirt/p/420278216_white",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230104/J8h9/63b56e7daeb269659c2360d1/tigertrail_white_floral_print_spread_collar_shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Floral Print Spread Collar Shirt",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-graphic-print-spread-collar-shirt/p/420324027_ltblue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230104/pBrl/63b56ad4aeb269659c235b02/tigertrail_blue_graphic_print_spread_collar_shirt.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Graphic Print Spread Collar Shirt",
+        "price": 239,
+        "orginal_price": 399,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "200"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tior-fit--flare-dress-with-waist-tie-up/p/465539426_pink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230103/cPJW/63b34aeff997ddfdbd0b66ba/tior_pink_fit_26_flare_dress_with_waist_tie-up.jpg",
+        "brand": "Tior",
+        "nameCls": "Fit & Flare Dress with Waist Tie-Up",
+        "price": 600,
+        "orginal_price": 1499,
+        "category":"flare",
+        "discount": 60,
+        "offer_price": "375"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/antix-colourblock-t-shirt-with-shorts/p/420326318_turquoise",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230220/XQJu/63f38d66aeb26924e37c0ba2/antix_multicoloured_colourblock_t-shirt_with_shorts.jpg",
+        "brand": "ANTIX",
+        "nameCls": "Colourblock T-Shirt with Shorts",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-fit--flare-dress/p/420323043_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/T7gK/63cfb513f997dd708e1e7e24/kidderz_yellow_printed_fit_26_flare_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Fit & Flare Dress",
+        "price": 269,
+        "orginal_price": 449,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "225"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/nike-logo-print-round-neck-t-shirt/p/469366683_black",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230125/eiY5/63d10726f997dd708e207b52/nike_black_logo_print_round-neck_t-shirt.jpg",
+        "brand": "NIKE",
+        "nameCls": "Logo Print Round-Neck T-Shirt",
+        "price": 956,
+        "orginal_price": 1195,
+        "category":"t-shirt",
+        "discount": 20,
+        "offer_price": "860"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/codez-typographic-print-crew-neck-t-shirt/p/465603544_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230114/hj5k/63c1c25ef997dd708e075e73/codez_blue_typographic_print_crew-neck_t-shirt.jpg",
+        "brand": "CODEZ",
+        "nameCls": "Typographic Print Crew-Neck T-Shirt",
+        "price": 250,
+        "orginal_price": 999,
+        "category":"t-shirt",
+        "discount": 75,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-a-line-dress/p/420180004_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/DGXB/63cfb50caeb269c651f66dc2/kidderz_multicolored_printed_a-line_dress.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed A-Line Dress",
+        "price": 269,
+        "orginal_price": 449,
+        "category":"line dress",
+        "discount": 40,
+        "offer_price": "225"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-colourblock-t-shirt--short-set/p/469455718_grey",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230201/lSkf/63da81def997dd708e32f307/game_begins_grey_colourblock_t-shirt_26_short_set.jpg",
+        "brand": "GAME BEGINS",
+        "nameCls": "Colourblock T-Shirt & Short Set",
+        "price": 292,
+        "orginal_price": 449,
+        "category":"t-shirt",
+        "discount": 35,
+        "offer_price": "265"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-minnie-mouse-print-round-neck-t-shirt/p/420323070_lime",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/5cmM/63d00910f997dd708e1f5057/kidderz_lime_yellow_minnie_mouse_print_round-neck_t-shirt.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Minnie Mouse Print Round-Neck T-Shirt",
+        "price": 179,
+        "orginal_price": 299,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "150"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-shirt-with-flap-pocket/p/420324032_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220623/rxHB/62b4afd2f997dd03e29a8109/tigertrail_yellow_checked_shirt_with_flap_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Shirt with Flap Pocket",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-striped-round-neck-top/p/420279185_lgtpink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230110/EFHY/63bd9398f997dd708efc6460/kidderz_pink_striped_round-neck_top.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Striped Round-Neck Top",
+        "price": 209,
+        "orginal_price": 349,
+        "category":"top",
+        "discount": 40,
+        "offer_price": "175"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tior-floral-print-fit-and-flare-dress/p/464552751_maroon",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221228/qORZ/63ab84e9aeb269659c1259b7/tior_maroon_floral_print_fit_and_flare_dress.jpg",
+        "brand": "Tior",
+        "nameCls": "Floral Print Fit and Flare Dress",
+        "price": 600,
+        "orginal_price": 1499,
+        "category":"flare",
+        "discount": 60,
+        "offer_price": "375"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-typographic-print-round-neck-t-shirt/p/441273597_aqua",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230202/pkhg/63db946baeb269c6510bfb97/pink_n_blue_aqua_typographic_print_round-neck_t-shirt.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Typographic Print Round-Neck T-Shirt",
+        "price": 129,
+        "orginal_price": "",
+        "category":"t-shirt",
+        "discount": "",
+        "offer_price": "116"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-shirt-with-patch-pocket/p/420324132_multicolor",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230125/6hYG/63d14f4aaeb269c651fa53a2/tigertrail_white_26_blue_checked_shirt_with_patch_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Shirt with Patch Pocket",
+        "price": 359,
+        "orginal_price": 599,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-checked-shirt-with-patch-pocket/p/420324130_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230113/Bhx1/63c132c6f997dd708e05e950/tigertrail_yellow_checked_shirt_with_patch_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Checked Shirt with Patch Pocket",
+        "price": 359,
+        "orginal_price": 599,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/codez-geometric-print-crew-neck-t-shirt/p/465546498_navy",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230104/Cr1t/63b49290aeb269659c222d11/codez_navy_blue_geometric_print_crew-neck_t-shirt.jpg",
+        "brand": "CODEZ",
+        "nameCls": "Geometric Print Crew-Neck T-Shirt",
+        "price": 250,
+        "orginal_price": 999,
+        "category":"t-shirt",
+        "discount": 75,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/altheory-striped-shirt-with-button-down-collar/p/441312549_white",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220920/VjIU/6329cf68aeb269dbb397d0ba/altheory_white_striped_shirt_with_button-down_collar.jpg",
+        "brand": "ALTHEORY",
+        "nameCls": "Striped Shirt with Button-Down Collar",
+        "price": 599,
+        "orginal_price": 999,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "599"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/tigertrail-printed-shirt-with-flap-pocket/p/420324020_green",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/HbTi/63d006caaeb269c651f71a3b/tigertrail_green_printed_shirt_with_flap_pocket.jpg",
+        "brand": "TIGERTRAIL",
+        "nameCls": "Printed Shirt with Flap Pocket",
+        "price": 299,
+        "orginal_price": 499,
+        "category":"shirt",
+        "discount": 40,
+        "offer_price": "250"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-chick-gown-dress-with-ruffles/p/465717384_pink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230206/ebdL/63e13b37f997dd708e3c94e5/pink_chick_pink_gown_dress_with_ruffles.jpg",
+        "brand": "PINK CHICK",
+        "nameCls": "Gown Dress with Ruffles",
+        "price": 2340,
+        "orginal_price": 3900,
+        "category":"gown",
+        "discount": 40,
+        "offer_price": 1989
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/bella-moda-embroidered-tiered-dress-with-tie-up/p/465639242_peach",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230121/Bbb4/63caff56aeb269c651effd45/bella_moda_peach_embroidered_tiered_dress_with_tie-up.jpg",
+        "brand": "Bella moda",
+        "nameCls": "Embroidered Tiered Dress with Tie-Up",
+        "price": 697,
+        "orginal_price": 2247,
+        "category":"tiered dress",
+        "discount": 69,
+        "offer_price": "629"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-typographic-print-shorts/p/441236660_skyblue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20221230/DWKz/63aed78cf997ddfdbd050d13/pink_n_blue_blue_typographic_print_shorts.jpg",
+        "brand": "PINK N BLUE",
+        "nameCls": "Typographic Print Shorts",
+        "price": 134,
+        "orginal_price": 149,
+        "category":"shorts",
+        "discount": 10,
+        "offer_price": "134"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-floral-print-kurta-suit-set/p/465590511_green",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230111/NaDA/63be97e7f997dd708efea9f0/pspeaches_green_26_pink_floral_print_kurta_suit_set.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Floral Print Kurta Suit Set",
+        "price": 1351,
+        "orginal_price": 4222,
+        "category":"kurta",
+        "discount": 68,
+        "offer_price": 1056
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pepe-jeans-lightly-washed-slim-fit-jeans/p/469240351_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230125/7Bzm/63d10695f997dd708e20753c/pepe_jeans_blue_lightly_washed_slim_fit_jeans.jpg",
+        "brand": "Pepe Jeans",
+        "nameCls": "Lightly Washed Slim Fit Jeans",
+        "price": 810,
+        "orginal_price": 1799,
+        "category":"jeans",
+        "discount": 55,
+        "offer_price": "720"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-embellished-tiered-tulle-skirt-with-bow-accent/p/441144123_ltpink",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20220906/Vxbh/63176005f997dd1f8de765e4/kg_frendz_pink_embellished_tiered_tulle_skirt_with_bow_accent.jpg",
+        "brand": "KG FRENDZ",
+        "nameCls": "Embellished Tiered Tulle Skirt with Bow Accent",
+        "price": 389,
+        "orginal_price": 599,
+        "category":"skirt",
+        "discount": 35,
+        "offer_price": "300"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-graphic-print-round-neck-t-shirt/p/420323058_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/Q6CV/63cffb09aeb269c651f6e44d/kidderz_yellow_graphic_print_round-neck_t-shirt.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Graphic Print Round-Neck T-Shirt",
+        "price": 149,
+        "orginal_price": 249,
+        "category":"t-shirt",
+        "discount": 40,
+        "offer_price": "125"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-fit--flare-dress-with-belt/p/420323038_yellow",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230124/umIA/63cfb4aef997dd708e1e7bca/kidderz_yellow_printed_fit_26_flare_dress_with_belt.jpg",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Fit & Flare Dress with Belt",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "275"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pspeaches-striped-lehenga-choli-with-dupatta-set/p/465540966_magenta",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230103/KNhk/63b34ab2f997ddfdbd0b63c8/pspeaches_magenta_26_yellow_striped_lehenga_choli_with_dupatta_set.jpg",
+        "brand": "Pspeaches",
+        "nameCls": "Striped Lehenga Choli with Dupatta Set",
+        "price": 1553,
+        "orginal_price": 4854,
+        "category":"lehenga choli",
+        "discount": 68,
+        "offer_price": 1214
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/indian-terrain-boys-striped-flat-front-shorts/p/441776928_blue",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230207/HhwA/63e229b0aeb269c651160346/indian_terrain_boys_blue_striped_flat-front_shorts.jpg",
+        "brand": "INDIAN TERRAIN BOYS",
+        "nameCls": "Striped Flat-Front Shorts",
+        "price": 520,
+        "orginal_price": 1299,
+        "category":"shorts",
+        "discount": 60,
+        "offer_price": "442"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/r-k-maniyar-mickey-mouse-print-fit--flare-dress/p/465551689_mustard",
+        "images": "https://assets.ajio.com/medias/sys_master/root/20230104/QCpi/63b53d40f997ddfdbd0fb847/r_k_maniyar_mustard_mickey_mouse_print_fit_26_flare_dress.jpg",
+        "brand": "R K MANIYAR",
+        "nameCls": "Mickey Mouse Print Fit & Flare Dress",
+        "price": 435,
+        "orginal_price": 1279,
+        "category":"flare",
+        "discount": 66,
+        "offer_price": "358"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/nike-logo-print-shorts-with-elasticated-waist/p/469366705_bluemintwhite",
+        "images": "",
+        "brand": "NIKE",
+        "nameCls": "Logo Print Shorts with Elasticated Waist",
+        "price": 1036,
+        "orginal_price": 1295,
+        "category":"shorts",
+        "discount": 20,
+        "offer_price": "932"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-pack-of-2-printed-t-shirts/p/441273465_brightdaisy",
+        "images": "",
+        "brand": "PINK N BLUE",
+        "nameCls": "Pack of 2 Printed T-Shirts",
+        "price": 269,
+        "orginal_price": 299,
+        "category":"t-shirt",
+        "discount": 10,
+        "offer_price": "269"
+      }, {
+        "rilrtl-products-list__link href": "https://www.ajio.com/kidderz-printed-fit--flare-dress/p/420323028_red",
+        "images": "",
+        "brand": "KIDDERZ",
+        "nameCls": "Printed Fit & Flare Dress",
+        "price": 329,
+        "orginal_price": 549,
+        "category":"flare",
+        "discount": 40,
+        "offer_price": "275"
+      }]
 }
 
 

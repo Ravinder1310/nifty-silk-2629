@@ -1,7 +1,7 @@
 import { MensCard } from './mensSingle'
 import {useDispatch, useSelector} from 'react-redux'
 import { useEffect, useState } from "react"
-import { getProducts } from "../../redux/action"
+import { getMensProducts } from "../../redux/action"
 import { useLocation, useSearchParams } from "react-router-dom"
 import "../prodStyles/mens.css"
 
@@ -25,7 +25,7 @@ export const MensList = () => {
             _order: searchParams.get("order")//  &category=Novel&category=Motivational&_sort=release_year&_order=asc
         }
     } 
-    dispatch(getProducts(paramObj))
+    dispatch(getMensProducts(paramObj))
   },[location.search])
 
     return (

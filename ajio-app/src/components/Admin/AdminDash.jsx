@@ -17,7 +17,7 @@ const AdminDash = () => {
   const [total, setTotal] = useState(0);
 
   const getdata = async (cate) => {
-    let res = await fetch(`https://server-jrrq.onrender.com/${cate}`);
+    let res = await fetch(`https://odd-deer-hoodie.cyclic.app/${cate}`);
     let data = await res.json();
     setDash(data);
   };
@@ -72,8 +72,9 @@ const AdminDash = () => {
           placeholder="select"
           onChange={handleChange}
           size={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}>
-          <option value="sofa">sofa</option>
-          <option value="chair">chair</option>
+          <option value="mens">Mens</option>
+          <option value="womens">Womens</option>
+          <option value="kids">Kids</option>
         </Select>
       </Box>
       <Grid
@@ -91,24 +92,29 @@ const AdminDash = () => {
         {dash.map((e) => (
           <Box shadow="md" p={5} key={e.id} fontWeight="bold">
             <Box position="relative" zIndex="-1" >
-              <Image src={e.image1} alt="image 1 starting" />
-              <Box
+              <Image src={e.images} alt="image 1 starting" />
+              {/* <Box
                 _hover={{ display: "none" }}
                 position={"absolute"}
                 top="0px"
                 left="0px">
                 <Image src={e.image2} alt="image 2 starting" />
-              </Box>
+              </Box> */}
             </Box>
-            <Text>Title : {e.title}</Text>
-            <Text>Describe : {e.short_description}</Text>
-            <Text>Price : ₹ {e.price}</Text>
-            <Text>Review : {e.reviews}</Text>
-            <Grid gridTemplateColumns="repeat(3,1fr)" gap="1px">
-              <Image width="15" src={e.thumbnail1} alt="" />
-              <Image width="15" src={e.thumbnail2} alt="" />
-              <Image width="15" src={e.thumbnail3} alt="" />
-            </Grid>
+            {/* <Link to={`/book/${book.id}`}> */}
+            {/* <img src={e.images} alt='Error' width={"100%"}/> */}
+            {/* </Link> */}
+            <h3>{e.brand}</h3>
+            <p>{e.nameCls}</p>
+            <div>
+            <p className="price">₹{e.price}</p>
+            <p className="original_price">₹{e.orginal_price}</p>
+            <p className="mens_discount">({e.discount}% off)</p>
+            </div>
+            <p className="offer_price">Offer price ₹{e.price-80}</p>
+            {/* <Link to={`/book/${book.id}/edit`}>
+            <button>Edit</button>
+            </Link> */}
           </Box>
         ))}
       </Grid>

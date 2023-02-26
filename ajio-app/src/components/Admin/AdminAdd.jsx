@@ -29,7 +29,7 @@ const AdminAdd = () => {
   const [cate, setCate] = useState("");
 
   const getAdd = async (add, cate) => {
-    let res = await fetch(`https://server-jrrq.onrender.com/${cate}`, {
+    let res = await fetch(`https://odd-deer-hoodie.cyclic.app/${cate}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
