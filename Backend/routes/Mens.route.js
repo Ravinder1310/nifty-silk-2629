@@ -33,7 +33,7 @@ mensRoute.patch("/update/:id",async(req,res)=>{
         const findUser = await MensModel.find({_id:ID});
         if(findUser[0].userID===userID){
             await MensModel.findByIdAndUpdate({_id:ID},payload);
-            res.send({"msg":"updated successfully"}); 
+            res.send({"msg":"Updated Successfully"}); 
         }else{
             res.send({"msg":"You are not authorized"})
         }
@@ -50,7 +50,7 @@ mensRoute.delete("/delete/:id",async(req,res)=>{
         const findUser = await MensModel.find({_id:ID});
         if(findUser[0].userID===userID){
             await MensModel.findByIdAndDelete(ID);
-            res.send({"msg":"delete successfully"}); 
+            res.send({"msg":"Delete successfully"}); 
         }else{
             res.send({"msg":"You are not authorized"})
         }
