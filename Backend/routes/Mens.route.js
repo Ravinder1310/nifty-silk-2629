@@ -19,9 +19,9 @@ mensRoute.post("/create",async(req,res)=>{
     try {
        let newPost = new MensModel(post);
        await newPost.save();
-       res.send({"msg":"post successfully"})   
+       res.send({"msg":"Post successfully"})   
     } catch (err) {
-        res.send({"msg":"error in post","error":err})
+        res.send({"msg":"Error in post","error":err})
     } 
 })
 
