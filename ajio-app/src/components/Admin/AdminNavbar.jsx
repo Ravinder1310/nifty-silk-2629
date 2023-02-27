@@ -15,7 +15,7 @@ import {
   Center,
   Text,
 } from "@chakra-ui/react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../../logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useRef } from "react";
@@ -26,7 +26,7 @@ const AdminNavbar = () => {
   let navigate = useNavigate();
   return (
     <div>
-      <Box bg="white" p={4} position="fixed" z-index="1" width="100%" top="0px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
+      <Box bg="white" p={4} position="sticky" z-index="1" width="100%" top="0px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" marginTop={"-70px"}>
         <HStack
           gap={10}
           padding={2}
@@ -34,7 +34,9 @@ const AdminNavbar = () => {
           height={"28px"}>
           <Box>
             <Center>
+              <Link to={"/"}>
               <Image src={logo} w={"60px"} />
+              </Link>
             </Center>
           </Box>
           <Box>

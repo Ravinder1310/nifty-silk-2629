@@ -5,9 +5,9 @@ import "../prodStyles/mens.css"
 export const WomensCard = ({women}) => {
     return (
         <div className="mens_cards">
-            {/* <Link to={`/book/${book.id}`}> */}
+            <Link to={`/womens/${women._id}`}>
             <img src={women.images} alt='Error' width={"100%"}/>
-            {/* </Link> */}
+            </Link>
             <h3>{women.brand}</h3>
             <p>{women.nameCls}</p>
             <div>

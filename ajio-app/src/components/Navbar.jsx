@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
 import { BsFillBagCheckFill } from "react-icons/bs";
 import Menuitem from "../components/homepage/MenuItem";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import logo from "../logo.png"
+import { userAuthContext } from "./login/UserAuthContext"
+import { Authentication } from "./login/Authentication";
+import { AuthDropDown } from "./login/AuthDropdown";
 
 const Navbar = () => {
   let navigate = useNavigate();
+  const {user} = useContext(userAuthContext)
   
   return (
     <div>
@@ -18,7 +22,7 @@ const Navbar = () => {
         position={"fixed"}
         top="0"
         width="100%"
-        zIndex={"999"}
+        zIndex={"0"}
         backgroundColor="#fff"
       >
         <Box>
@@ -475,7 +479,7 @@ const Navbar = () => {
             </Box>
 
             <Box>
-                 <Button>Login</Button> 
+            {!user?.accessToken? <Authentication /> : <AuthDropDown/>}
             </Box>
 
             <Link to={"/cart"}>

@@ -8,11 +8,13 @@ import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
 import AuthContextProvider from "./context/AuthContext";
+import { UserAuthContextProvider } from './components/login/UserAuthContext';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 
   <ChakraProvider>
+    <UserAuthContextProvider>
     <BrowserRouter>
     <Provider store={store}>
       <AuthContextProvider>
@@ -20,6 +22,7 @@ root.render(
       </AuthContextProvider>
        </Provider>
     </BrowserRouter>
+    </UserAuthContextProvider>
   </ChakraProvider>
 );
 

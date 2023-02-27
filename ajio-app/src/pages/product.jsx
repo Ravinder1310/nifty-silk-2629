@@ -14,8 +14,8 @@ export const Mens = () => {
             <Navbar/>
             <div style={{display:'flex',marginTop:'100px',justifyContent:"space-around"}}>
                     <MensSidebar/>
-                <div style={{height:'100%'}}> 
-                     <h1 className="mens_title">Clothings</h1>
+                <div style={{height:'100%',width:"70%"}}> 
+                     {/* <h1 className="mens_title">Clothings</h1> */}
                     <MensList/>
                 </div>
             </div>
@@ -31,7 +31,7 @@ export const Women = () => {
             <div style={{display:'flex',marginTop:'100px',justifyContent:"space-around"}}>
                     <WomensSidebar/>
                 <div style={{height:'100%'}}> 
-                     <h1 className="mens_title">Clothings</h1>
+                     {/* <h1 className="mens_title">Clothings</h1> */}
                     <WomenList/>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export const Kids = () => {
             <div style={{display:'flex',marginTop:'100px',justifyContent:"space-around"}}>
                     <KidsSidebar/>
                 <div style={{height:'100%'}}> 
-                     <h1 className="mens_title">Clothings</h1>
+                     {/* <h1 className="mens_title">Clothings</h1> */}
                     <KidsList/>
                 </div>
             </div>

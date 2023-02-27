@@ -3,6 +3,7 @@ import React from "react";
 // import {useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthContext";
 import Navbar from "../Navbar";
+import AdminNavbar from "./AdminNavbar";
 
 const AdminLogin = () => {
   const { adminData, setAdminData, adminLogin } = React.useContext(AuthContext);
@@ -18,7 +19,7 @@ const AdminLogin = () => {
 
   return (
     <>
-      <Navbar />
+      <AdminNavbar />
       <Flex
         margin="auto"
         width="450px"

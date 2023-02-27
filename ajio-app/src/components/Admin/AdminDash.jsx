@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { useEffect } from "react";
 import AdminNavbar from "./AdminNavbar";
+import Navbar from "../Navbar";
 
 const AdminDash = () => {
   const [dash, setDash] = useState([]);

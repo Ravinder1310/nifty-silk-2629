@@ -5,9 +5,9 @@ import "../prodStyles/mens.css"
 export const KidsCard = ({kid}) => {
     return (
         <div className="mens_cards">
-            {/* <Link to={`/book/${book.id}`}> */}
+            <Link to={`/kids/${kid.id}`}>
             <img src={kid.images} alt='Error' width={"100%"}/>
-            {/* </Link> */}
+            </Link>
             <h3>{kid.brand}</h3>
             <p>{kid.nameCls}</p>
             <div>

@@ -9,6 +9,9 @@ import { PrivateRoute } from "./PrivateRoute";
 import { Kids, Mens, Women } from "../pages/product";
 import AdminManage from "../components/Admin/AdminManage";
 import AdminAdd from "../components/Admin/AdminAdd";
+import { MensCard } from "../components/products/mensSingle";
+import { WomensCard } from "../components/products/womensSingle";
+import { KidsCard } from "../components/products/kidsSingle";
 
 const AllRoutes = () => {
   return (
@@ -18,6 +21,9 @@ const AllRoutes = () => {
         <Route path='/' element={<HomePage />}></Route>
           <Route path="/AdminDash" element={<PrivateRoute><AdminDash/></PrivateRoute>} />
          <Route path='/mens'element={<Mens/>}/>
+         <Route path='/mens/:id'element={<MensCard/>}/>
+         <Route path='/womens/:id'element={<WomensCard/>}/>
+         <Route path='/kids/:id'element={<KidsCard/>}/>
          <Route path='/womens'element={<Women/>}/>
          <Route path='/kids'element={<Kids/>}/>
          <Route path="/AdminManage" element={<PrivateRoute><AdminManage/></PrivateRoute>} />
