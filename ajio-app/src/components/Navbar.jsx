@@ -22,7 +22,7 @@ const Navbar = () => {
         position={"fixed"}
         top="0"
         width="100%"
-        zIndex={"0"}
+        zIndex={"999"}
         backgroundColor="#fff"
       >
         <Box>

@@ -56,8 +56,8 @@ function Address({ page, setPage, isOpen, onToggle }) {
   };
 
   return (
-    <SlideFade in={isOpen} offsetY={"20px"}>
-      <GridItem>
+    <SlideFade in={isOpen} offsetY={"20px"} >
+      <GridItem ml={"100px"}>
         <Stack spacing={4}>
           <HStack>
             <Box>

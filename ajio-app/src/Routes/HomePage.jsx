@@ -2,7 +2,7 @@ import React from 'react'
 import ImageSlider from '../components/homepage/ImageSlider'
 import ImageSlider1 from '../components/homepage/ImageSlider1'
 import ImageSlider2 from '../components/homepage/ImageSlider2'
-import {Box,Image,Grid,GridItem} from "@chakra-ui/react"
+import {Box,Image,Grid,GridItem, useMediaQuery} from "@chakra-ui/react"
 import ImageSlider3 from '../components/homepage/ImageSlider3'
 import ImageSlider4 from '../components/homepage/ImageSlider4'
 import ImageSlider5 from '../components/homepage/ImageSlider5'
@@ -10,10 +10,14 @@ import ImageSlider6 from '../components/homepage/ImageSlider6'
 import ImageSlider7 from '../components/homepage/ImageSlider7'
 import ImageSlider8 from '../components/homepage/ImageSlider8'
 import Footer from "../components/footer/Footer"
+import Navbar from '../components/Navbar'
+import MobileNav from '../components/homepage/MobileNav'
 
 const HomePage = () => {
+    const [isLargerThan800] = useMediaQuery('(min-width: 800px)')
   return (
     <div>
+        {isLargerThan800?<Navbar />:<MobileNav />}
         <Box>
         <ImageSlider/>
         </Box>     

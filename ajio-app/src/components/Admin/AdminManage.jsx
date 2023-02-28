@@ -17,13 +17,13 @@ const AdminManage = () => {
   const [total, setTotal] = useState(0);
 
   const getdata = async (cate) => {
-    let res = await fetch(`https://server-jrrq.onrender.com/${cate}`);
+    let res = await fetch(`https://odd-deer-hoodie.cyclic.app/${cate}`);
     let data = await res.json();
     setDelete(data);
   };
 
   const AdminDelete = async (id, cate) => {
-    await fetch(`https://server-jrrq.onrender.com/${cate}/${id}`, {
+    await fetch(`https://odd-deer-hoodie.cyclic.app/${cate}/${id}`, {
       method: "DELETE",
     });
   };
@@ -34,7 +34,7 @@ const AdminManage = () => {
       price: +updatePrice,
     };
     console.log(newPrice);
-    await fetch(`https://server-jrrq.onrender.com/${cate}/${id}`, {
+    await fetch(`https://odd-deer-hoodie.cyclic.app/${cate}/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -93,8 +93,9 @@ const AdminManage = () => {
           placeholder="select"
           onChange={handleChange}
           size={{ base: "xs", sm: "sm", md: "md", lg: "lg" }}>
-          <option value="sofa">sofa</option>
-          <option value="chair">chair</option>
+          <option value="mens">Mens</option>
+          <option value="womens">Womens</option>
+          <option value="kids">Kids</option>
         </Select>
       </Box>
       <Grid
@@ -110,21 +111,23 @@ const AdminManage = () => {
           lg: "repeat(4,1fr)",
         }}>
         {deletes.map((e) => (
-          <Box shadow="md" p={4} key={e.id} fontWeight="bold" zIndex={-1}>
-            <Image width="80%" src={e.image1} alt="" />
-            <Text>Title : {e.title}</Text>
-            <Text>Price : ₹ {e.price}</Text>
-            <Text>Review : {e.reviews}</Text>
+          <Box shadow="md" p={4} key={e.id} fontWeight="bold" zIndex={-1} textAlign="center">
+            <Image width="80%" src={e.images} alt="" />
+            <Text>{e.brand}</Text>
+            <Text>{e.nameCls}</Text>
+            <Text>{e.price}</Text>
+            <p className="mens_discount">({e.discount}% off)</p>
+            <p className="offer_price">Offer price ₹{e.price-80}</p>
             <Button
               fontSize={{ base: "18px", sm: "12px", md: "15px", lg: "14px" }}
               colorScheme="blue"
-              onClick={() => AdminDelete(e.id, cate)}>
+              onClick={() => AdminDelete(e._id, cate)}>
               Delete
             </Button>
             <Button
               fontSize={{ base: "18px", sm: "12px", md: "15px", lg: "14px" }}
               colorScheme="blue"
-              onClick={() => AdminUpdate(e.id, cate)}
+              onClick={() => AdminUpdate(e._id, cate)}
               margin="10px">
               Update
             </Button>

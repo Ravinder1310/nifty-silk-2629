@@ -32,7 +32,7 @@ import {
 function Payment({ confirmOrder, loading, isOpen }) {
   return (
     <SlideFade in={isOpen} offsetY={"20px"}>
-        <GridItem>
+        <GridItem ml={"100px"}>
           <HStack>
             <Box w={"100%"}>
               <FormControl id="name" isRequired>

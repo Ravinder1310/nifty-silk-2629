@@ -10,18 +10,24 @@ import {
   Image,
   Stack,
   Text,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { BsFillHeartFill } from "react-icons/bs";
+import MobileNav from "../homepage/MobileNav";
+import Navbar from "../Navbar";
 
 function CartItem({ img, title, price, orginalPrice, discount, quantity }) {
   const [qty, setQty] = useState(quantity);
+  
 
   const handleQuantity = (value) => {
     setQty(qty + value);
   };
 
   return (
+    <Box>
+     
     <Card
       mb={6}
       direction={{ base: "column", sm: "row" }}
@@ -105,6 +111,7 @@ function CartItem({ img, title, price, orginalPrice, discount, quantity }) {
         </Flex>
       </Stack>
     </Card>
+    </Box>
   );
 }
 

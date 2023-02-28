@@ -26,7 +26,7 @@ const AdminNavbar = () => {
   let navigate = useNavigate();
   return (
     <div>
-      <Box bg="white" p={4} position="sticky" z-index="1" width="100%" top="0px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px" marginTop={"-70px"}>
+      <Box bg="white" p={4} position="fixed" z-index="1" width="100%" top="0px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px">
         <HStack
           gap={10}
           padding={2}

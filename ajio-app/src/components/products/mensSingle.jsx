@@ -1,13 +1,22 @@
 import { Link } from "react-router-dom"
 import "../prodStyles/mens.css"
 import axios from "axios"
+import { useState } from "react"
 
 
 export const MensCard = ({men}) => {
 
-  const handleCart = async() => {
-    await axios.post("https://odd-deer-hoodie.cyclic.app/cart",men)
-  }
+  const handleCart = async (men) => {
+    let res = await fetch(`https://odd-deer-hoodie.cyclic.app/cart/create`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(men),
+    });
+
+    alert("Product is added to cart")
+  };
 
     return (
         <div className="mens_cards">
@@ -15,6 +24,7 @@ export const MensCard = ({men}) => {
             <img src={men.images} alt='Error' width={"100%"}/>
             </Link>
             <h3>{men.brand}</h3>
+            {/* <p>{men._id}</p> */}
             <p>{men.nameCls}</p>
             <div>
             <p className="price">₹{men.price}</p>

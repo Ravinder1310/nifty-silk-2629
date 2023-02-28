@@ -16,7 +16,7 @@ export const getMensProducts =(params={}) => (dispatch) => {
     dispatch(getProductsRequestAction());
     // const type = "mens";
 
-    axios.get(`https://odd-deer-hoodie.cyclic.app/mens`,params).then((res)=>{
+    axios.get(`http://localhost:8080/mens`,params).then((res)=>{
         dispatch(getProductsSuccessAction(res.data))
     }).catch((error)=>{
         dispatch(getProductsFailureAction(error))

@@ -1,4 +1,4 @@
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
+import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import React from "react";
 
@@ -14,7 +14,8 @@ function CartCrumb({ setPage, onToggle }) {
   };
 
   return (
-    <Breadcrumb spacing="8px" separator={<ChevronRightIcon color="gray.500" />}>
+    <Box ml={"100px"}>
+    <Breadcrumb spacing="8px" separator={<ChevronRightIcon color="gray.500"  />}>
       <BreadcrumbItem>
         <BreadcrumbLink onClick={() => handleClick(1)}>Bag</BreadcrumbLink>
       </BreadcrumbItem>
@@ -29,6 +30,7 @@ function CartCrumb({ setPage, onToggle }) {
         <BreadcrumbLink onClick={() => handleClick(3)}>Payment</BreadcrumbLink>
       </BreadcrumbItem>
     </Breadcrumb>
+    </Box>
   );
 }
 

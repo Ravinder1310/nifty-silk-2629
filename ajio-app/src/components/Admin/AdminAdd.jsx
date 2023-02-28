@@ -64,7 +64,7 @@ const AdminAdd = () => {
   return (
     <div>
       <AdminNavbar />
-      <Box width="80%" margin="auto" p={4} position="relative" zIndex="-1">
+      <Box width="80%" margin="auto" p={4} position="relative">
         <Heading marginTop="70px">
           <Center
             fontSize={{ base: "10px", sm: "18px", md: "20px", lg: "25px" }} marginBottom="20px">
@@ -80,49 +80,26 @@ const AdminAdd = () => {
           <FormLabel
             fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
             margin="-1px">
-            Image1
+            Image
           </FormLabel>
           <Input
             type="url"
             marginBottom="10px"
             placeholder="Product Image1"
             name="image1"
-            value={add.image1}
+            value={add.images}
             onChange={handleChange}
           />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Image2
-          </FormLabel>
-          <Input
-            type="url"
-            marginBottom="10px"
-            placeholder="Product Image2"
-            name="image2"
-            value={add.image2}
-            onChange={handleChange}
-          />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Image3
-          </FormLabel>
-          <Input
-            type="url"
-            marginBottom="10px"
-            placeholder="Product Image3"
-            name="image3"
-            value={add.image3}
-            onChange={handleChange}
-          />
+          
           <Select
             value={cate}
             placeholder="select category"
             onChange={handleChanges}
             marginBottom="10px">
-            <option value="sofa">sofa</option>
-            <option value="chair">chair</option>
+            <option value="mens">Men</option>
+            <option value="womens">Women</option>
+            <option value="kids">Kids</option>
+
           </Select>
           <FormLabel
             fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
@@ -150,19 +127,7 @@ const AdminAdd = () => {
             value={add.short_description}
             onChange={handleChange}
           />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Long_Description
-          </FormLabel>
-          <Input
-            type="text"
-            marginBottom="10px"
-            placeholder="Product long_description"
-            name="long_description"
-            value={add.long_description}
-            onChange={handleChange}
-          />
+         
           <FormLabel
             fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
             margin="-1px">
@@ -187,45 +152,7 @@ const AdminAdd = () => {
             value={add.reviews}
             onChange={handleChange}
           />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Thumbnail1
-          </FormLabel>
-          <Input
-            type="url"
-            marginBottom="10px"
-            placeholder="Product thumbnail1"
-            name="thumbnail1"
-            value={add.thumbnail1}
-            onChange={handleChange}
-          />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Thumbnail2
-          </FormLabel>
-          <Input
-            type="url"
-            marginBottom="10px"
-            placeholder="Product thumbnail2"
-            name="thumbnail2"
-            value={add.thumbnail2}
-            onChange={handleChange}
-          />
-          <FormLabel
-            fontSize={{ base: "10px", sm: "14px", md: "16px", lg: "18px" }}
-            margin="-1px">
-            Thumbnail3
-          </FormLabel>
-          <Input
-            type="url"
-            marginBottom="10px"
-            placeholder="Product thumbnail3"
-            name="thumbnail3"
-            value={add.thumbnail3}
-            onChange={handleChange}
-          />
+          
         </FormControl>
         <Center>
           <Button colorScheme="blue" onClick={addProduct} marginBottom="20px">
