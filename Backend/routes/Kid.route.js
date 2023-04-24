@@ -13,6 +13,19 @@ kidRoute.get("/",async(req,res)=>{
     }
 })
 
+kidRoute.get("/:id",async(req,res)=>{
+    const ID = req.params.id
+    
+      try {
+        const findUser = await KidsModel.find({_id:ID});
+         res.send(findUser)
+         console.log(findUser)
+        
+      } catch (err) {
+            res.send({"msg":"Item not found","error":err})
+      }
+})
+
 kidRoute.post("/create",async(req,res)=>{
     const post = req.body;
     try {

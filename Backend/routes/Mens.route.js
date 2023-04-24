@@ -13,15 +13,29 @@ mensRoute.get("/",async(req,res)=>{
     }
 })
 
+mensRoute.get("/:id",async(req,res)=>{
+    
+    const ID = req.params.id
+    
+      try {
+        const findUser = await MensModel.find({_id:ID});
+         res.send(findUser)
+         console.log(findUser)
+        
+      } catch (err) {
+            res.send({"msg":"Item not found","error":err})
+      }
+})
+
 
 mensRoute.post("/create",async(req,res)=>{
     const post = req.body;
     try {
        let newPost = new MensModel(post);
        await newPost.save();
-       res.send({"msg":"post successfully"})   
+       res.send({"msg":"Post successfully"})   
     } catch (err) {
-        res.send({"msg":"error in post","error":err})
+        res.send({"msg":"Error in post","error":err})
     } 
 })
 
