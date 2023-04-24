@@ -13,6 +13,20 @@ mensRoute.get("/",async(req,res)=>{
     }
 })
 
+mensRoute.get("/:id",async(req,res)=>{
+    
+    const ID = req.params.id
+    
+      try {
+        const findUser = await MensModel.find({_id:ID});
+         res.send(findUser)
+         console.log(findUser)
+        
+      } catch (err) {
+            res.send({"msg":"Item not found","error":err})
+      }
+})
+
 
 mensRoute.post("/create",async(req,res)=>{
     const post = req.body;

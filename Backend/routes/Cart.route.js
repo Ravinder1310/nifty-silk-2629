@@ -13,6 +13,20 @@ cartRoute.get("/",async(req,res)=>{
     }
 })
 
+cartRoute.get("/:id",async(req,res)=>{
+    
+    const ID = req.params.id
+    
+      try {
+        const findUser = await CartModel.find({_id:ID});
+         res.send(findUser)
+         console.log(findUser)
+        
+      } catch (err) {
+            res.send({"msg":"Item not found","error":err})
+      }
+})
+
 cartRoute.post("/create",async(req,res)=>{
     const post = req.body;
     try {
